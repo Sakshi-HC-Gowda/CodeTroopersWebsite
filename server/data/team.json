@@ -7,8 +7,8 @@
       "department": "CSE",
       "category": "club-head",
       "team": "",
-      "photo": "",
-      "linkedin": "https://www.linkedin.com/in/abhishek-kini-181669287?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "photo": "https://drive.google.com/uc?export=view&id=1ZiTS1t9irIAgT6FSRN0D0F9LuC7aspOT",
+      "linkedin": "https://www.linkedin.com/in/abhishek-kini-181669287/",
       "github": "https://github.com/heynameisabhi",
       "email": "abhishek.kini@codetroopers.club"
     },
@@ -19,82 +19,88 @@
       "department": "CSE",
       "category": "workbench-head",
       "team": "",
-      "photo": "",
-      "linkedin": "https://linkedin.com/in/tejas-nayak",
-      "github": "https://github.com/tejasnayak",
+      "photo": "https://drive.google.com/uc?export=view&id=1xv67CsV6RcxWBBXLuSD6PcjVPjchAsou",
+      "linkedin": "https://www.linkedin.com/in/tejas-nayak-3110a7220",
+      "github": "https://github.com/tejasnayak25",
       "email": "tejas.nayak@codetroopers.club"
     },
     {
       "id": "500b14cd-4fae-4b38-ac1d-934a919aad43",
-      "name": "Mr. Deepak Rao",
+      "name": "Ms.Yashaswini A.S",
       "position": "Faculty Coordinator",
       "department": "CSE",
       "category": "faculty-coordinator",
       "team": "",
       "photo": "",
-      "linkedin": "https://linkedin.com/in/mr-deepak-rao",
-      "github": "https://github.com/mrdeepakrao",
-      "email": "mr.deepak.rao@codetroopers.club"
+      "linkedin": "",
+      "github": "",
+      "email": "yashaswinias.cs@sode-edu.in"
     },
     {
       "id": "77fc6bb6-8c60-419a-a266-5b0a6b8a6cd7",
-      "name": "Ms. Prithi",
+      "name": "Dr. Surajit Deb Barma",
       "position": "Faculty Coordinator",
       "department": "CSE",
       "category": "faculty-coordinator",
       "team": "",
       "photo": "",
-      "linkedin": "https://linkedin.com/in/ms-prithi",
-      "github": "https://github.com/msprithi",
-      "email": "ms.prithi@codetroopers.club"
-    },
-    {
-      "id": "f4e277f1-f31f-4a56-9024-49074748df39",
-      "name": "Mr. Ragvendra G.S",
-      "position": "Faculty Coordinator",
-      "department": "CSE",
-      "category": "faculty-coordinator",
-      "team": "",
-      "photo": "",
-      "linkedin": "https://linkedin.com/in/mr-ragvendra-gs",
-      "github": "https://github.com/mrragvendrags",
-      "email": "mr.ragvendra.gs@codetroopers.club"
+      "linkedin": "https://www.linkedin.com/in/surajit-deb-barma-4b1309249/",
+      "github": "",
+      "email": "surajit.cs@sode-edu.in"
     },
     {
       "id": "c1a76834-684e-433d-a7d7-33225703dc9e",
-      "name": "Tejas BK",
-      "position": "Workbench Developer",
+      "name": "Thejas BK",
+      "position": [
+        "Workbench Developer",
+        "Developer"
+      ],
       "department": "CSE",
       "category": "member",
-      "team": "Workbench Team",
-      "photo": "",
-      "linkedin": "https://linkedin.com/in/tejasbk",
-      "github": "https://github.com/tejasbk",
-      "email": "tejas.bk@codetroopers.club"
+      "team": [
+        "Workbench Team",
+        "Project Development Team 1"
+      ],
+      "photo": "https://drive.google.com/uc?export=view&id=1DevHQS0yTHWlHikG7pdhjjz1CG9MKpY_",
+      "linkedin": "https://www.linkedin.com/in/thejas-bk-96a6b9330",
+      "github": "https://github.com/THEJAS-BK",
+      "email": "thejas.24cs175@sode-edu.in"
     },
     {
       "id": "2295c4dc-5301-4e50-af70-da34227ba0ee",
       "name": "Vineeth",
-      "position": "Workbench Developer",
+      "position": [
+        "Workbench Developer",
+        "Developer"
+      ],
       "department": "CSE",
       "category": "member",
-      "team": "Workbench Team",
-      "photo": "",
+      "team": [
+        "Workbench Team",
+        "Project Development Team 2"
+      ],
+      "photo": "https://drive.google.com/uc?export=view&id=1CFzYcdahRcdH4bg5fFzcYv-Jmax6WE9-",
       "linkedin": "https://www.linkedin.com/in/vineethbhatalevoor0507",
       "github": "https://github.com/vineethbhatalevoor",
-      "email": "vineeth@codetroopers.club"
+      "email": "vineeth.24cs181@sode-edu.in"
     },
     {
       "id": "2cfca7c6-94d4-4338-ac61-994469bd4954",
       "name": "Navya Nayak",
-      "position": "Workbench Developer",
+      "position": [
+        "Workbench Developer ",
+        "Developer"
+      ],
       "department": "CSE",
       "category": "member",
-      "team": "Workbench Team",
-      "photo": "",
+      "team": [
+        "Workbench Team",
+        "Project Development Team 3"
+      ],
+      "photo": "https://drive.google.com/uc?export=view&id=1OkNEu2IBKzDNeCFYHyj29L6VYEBHX2BR",
       "linkedin": "https://www.linkedin.com/in/navya-nayak-9b32b93bb/",
       "github": "https://github.com/navyanayak-glitch",
-      "email": "navya.nayak@codetroopers.club"
+      "email": "navya.24cs087@sode-edu.in"
     },
     {
       "id": "1a784398-1cb0-4718-a92a-5c485b22295a",
@@ -103,9 +109,9 @@
       "department": "CSE",
       "category": "team-lead",
       "team": "Project Development Team 1",
-      "photo": "",
-      "linkedin": "https://linkedin.com/in/ashish-prasad",
-      "github": "https://github.com/ashishprasad",
+      "photo": "https://drive.google.com/uc?export=view&id=1k_zXby2Wscl9b2WWF81QMw5h1be6QJ81",
+      "linkedin": "https://www.linkedin.com/in/ashish-prasad-18412b33b/",
+      "github": "https://github.com/4MW23CS018",
       "email": "ashish.prasad@codetroopers.club"
     },
     {
@@ -115,22 +121,10 @@
       "department": "CSE",
       "category": "co-lead",
       "team": "Project Development Team 1",
-      "photo": "",
+      "photo": "https://drive.google.com/uc?export=view&id=1zcbnUlXVHnvDtxG9Z4eHGcEL47SZAkrS",
       "linkedin": "https://linkedin.com/in/adarsh-devadiga",
       "github": "https://github.com/adarshdevadiga",
       "email": "adarsh.devadiga@codetroopers.club"
-    },
-    {
-      "id": "8d502b80-b2ec-4a70-8487-8a82f80b4c26",
-      "name": "Thejas BK",
-      "position": "Developer",
-      "department": "CSE",
-      "category": "member",
-      "team": "Project Development Team 1",
-      "photo": "",
-      "linkedin": "https://www.linkedin.com/in/thejas-bk-96a6b9330",
-      "github": "https://github.com/THEJAS-BK",
-      "email": "thejas.bk@codetroopers.club"
     },
     {
       "id": "11bedd94-27d0-489e-b8aa-040e95ffa64c",
@@ -140,9 +134,9 @@
       "category": "member",
       "team": "Project Development Team 1",
       "photo": "",
-      "linkedin": "https://www.linkedin.com/in/shreedhanya-g-maddodi-6b0b9632b?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "linkedin": "https://www.linkedin.com/in/shreedhanya-g-maddodi-6b0b9632b/",
       "github": "https://github.com/Shreedhanya-gm",
-      "email": "shreedhanya@codetroopers.club"
+      "email": "dhanyamadoddi@gmail.com"
     },
     {
       "id": "998482f3-5cc4-4e7d-95a1-5fbe7871026e",
@@ -151,10 +145,10 @@
       "department": "CSE",
       "category": "member",
       "team": "Project Development Team 1",
-      "photo": "",
+      "photo": "https://drive.google.com/uc?export=view&id=1SoE0EZDL-v0BQ_wQ7ranNIMAqQTva0fs",
       "linkedin": "https://www.linkedin.com/in/aryya-desai/",
       "github": "https://github.com/aryyadesai-web",
-      "email": "arya.asween.desai@codetroopers.club"
+      "email": "arya.24cs022@sode-edu.in"
     },
     {
       "id": "81ac2715-3a69-4995-a0c4-7db337945316",
@@ -163,9 +157,9 @@
       "department": "CSE",
       "category": "team-lead",
       "team": "Project Development Team 2",
-      "photo": "",
-      "linkedin": "https://linkedin.com/in/bhuvan-kumar",
-      "github": "https://github.com/bhuvankumar",
+      "photo": "https://drive.google.com/uc?export=view&id=1w06Z-JVdlqHwTgQLnCvtbWa3PVhUzzyz",
+      "linkedin": "https://www.linkedin.com/in/bhuvan-kumar-2a9589323/",
+      "github": "https://github.com/BhuvanSKumar1",
       "email": "bhuvan.kumar@codetroopers.club"
     },
     {
@@ -175,7 +169,7 @@
       "department": "CSE",
       "category": "co-lead",
       "team": "Project Development Team 2",
-      "photo": "",
+      "photo": "https://drive.google.com/uc?export=view&id=1gFlsPnu8A1xfp3o5iiBYgt15DRevFzHu",
       "linkedin": "https://www.linkedin.com/in/reynol-d-souza-593543290",
       "github": "https://github.com/reynol-31",
       "email": "reynol@codetroopers.club"
@@ -183,14 +177,20 @@
     {
       "id": "d895db4d-49a0-4967-b536-0e5571999a47",
       "name": "Vishnu Prasad",
-      "position": "Developer",
+      "position": [
+        "Developer",
+        "Contributor"
+      ],
       "department": "CSE",
       "category": "member",
-      "team": "Project Development Team 2",
-      "photo": "",
+      "team": [
+        "Project Development Team 2",
+        "Media Team"
+      ],
+      "photo": "https://drive.google.com/uc?export=view&id=1Qsx4kctkp8VOeMbnwKwITjil4HEGjn7n",
       "linkedin": "https://linkedin.com/in/vishnu-prasad",
       "github": "https://github.com/vishnuprasad",
-      "email": "vishnu.prasad@codetroopers.club"
+      "email": "vishnu.24cs182@sode-edu.in"
     },
     {
       "id": "7a619b4b-9666-466c-892e-4e033e54d2bd",
@@ -199,10 +199,10 @@
       "department": "CSE",
       "category": "member",
       "team": "Project Development Team 2",
-      "photo": "",
-      "linkedin": "https://www.linkedin.com/in/shrikari-bhat-a3b0b0331?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "photo": "https://drive.google.com/uc?export=view&id=110NuYaZuYIGdEia04ANs0tXZ2w7-OdAC",
+      "linkedin": "https://www.linkedin.com/in/shrikari-bhat-a3b0b0331/",
       "github": "https://github.com/techmantra108",
-      "email": "shrikari.bhat@codetroopers.club"
+      "email": "shrikari.24cs155@sode-edu.in"
     },
     {
       "id": "adb6f094-ca6e-4681-b04d-537de15c0023",
@@ -211,19 +211,20 @@
       "department": "CSE",
       "category": "team-lead",
       "team": "Project Development Team 3",
-      "photo": "",
+      "photo": "https://drive.google.com/uc?export=view&id=15rFsqTVtsC-pP9X20bfB5allhkwQU2Xj",
       "linkedin": "https://www.linkedin.com/in/sakshi-h-c-ab9769301/",
       "github": "https://github.com/Sakshi-HC-Gowda",
       "email": "sakshi.hc@codetroopers.club"
     },
     {
       "id": "8e4240a3-baca-4315-a218-2461bc4db8f0",
-      "name": "Swastik",
+      "name": "Swasthik Yesh",
       "position": "Co-Lead",
       "department": "CSE",
       "category": "co-lead",
       "team": "Project Development Team 3",
-      "photo": "",
+      "photo": "https://drive.google.com/uc?export=view&id=1CvR8R6Zn4ZVcJUPqT92bkiQWFEUwz2iB",
+      "photoPosition": "center 27%",
       "linkedin": "https://www.linkedin.com/in/swasthikyesh/",
       "github": "https://github.com/syesh",
       "email": "swastik@codetroopers.club"
@@ -235,10 +236,10 @@
       "department": "CSE",
       "category": "member",
       "team": "Project Development Team 3",
-      "photo": "",
-      "linkedin": "https://www.linkedin.com/in/anushree-k-36a990330?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "photo": "https://drive.google.com/uc?export=view&id=19r_HLGYwIfVfox-dyyhMLAwiUX4jGzBb",
+      "linkedin": "https://www.linkedin.com/in/anushree-k-36a990330/",
       "github": "https://github.com/Anushree-K01",
-      "email": "anushree.k@codetroopers.club"
+      "email": "anushree.24cs017@sode-edu.in"
     },
     {
       "id": "f30874c9-5d2c-43c0-b012-aa5bb492e4c3",
@@ -247,10 +248,10 @@
       "department": "CSE",
       "category": "member",
       "team": "Project Development Team 3",
-      "photo": "",
+      "photo": "https://drive.google.com/uc?export=view&id=15UcgLQ93V3XDXybD8f4GM8-YRDEngqiX",
       "linkedin": "https://www.linkedin.com/in/anushasbhat674",
       "github": "https://github.com/Anusha674",
-      "email": "anusha.s.bhat@codetroopers.club"
+      "email": "anusha.24cs016@sode-edu.in"
     },
     {
       "id": "8543b790-5bea-42e8-89a3-de9596d3d34d",
@@ -259,8 +260,8 @@
       "department": "CSE",
       "category": "team-lead",
       "team": "Learning & Platform Development Team",
-      "photo": "",
-      "linkedin": "https://www.linkedin.com/in/chirashree-chamaraj-816515292?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "photo": "https://drive.google.com/uc?export=view&id=1FpoGso8ySYZ_vAKJrXNjA4q_EpxQxWQW",
+      "linkedin": "https://www.linkedin.com/in/chirashree-chamaraj-816515292/",
       "github": "https://github.com/Chirashree0810",
       "email": "chirashree@codetroopers.club"
     },
@@ -271,8 +272,8 @@
       "department": "CSE",
       "category": "co-lead",
       "team": "Learning & Platform Development Team",
-      "photo": "",
-      "linkedin": "www.linkedin.com/in/ nayana-k-4a14b82a1",
+      "photo": "https://drive.google.com/uc?export=view&id=1rD06sxhy4f8vy0eay2eBylTZDQpX1bfn",
+      "linkedin": "https://www.linkedin.com/in/nayana-k-4a14b82a1/",
       "github": "https://github.com/nayana12344567",
       "email": "nayana.k@codetroopers.club"
     },
@@ -283,10 +284,11 @@
       "department": "CSE",
       "category": "member",
       "team": "Learning & Platform Development Team",
-      "photo": "",
+      "photo": "https://drive.google.com/uc?export=view&id=1BZ3f_ULfymx3eHiCcnZLoDnPUj0Gndjb",
+      "photoPosition": "center 100%",
       "linkedin": "http://www.linkedin.com/in/samiksha-samiksha-128566367",
       "github": "https://github.com/samiksha17961",
-      "email": "samiksha@codetroopers.club"
+      "email": "samiksha.24cs127@sode-edu.in"
     },
     {
       "id": "ecccd85d-c2a0-43e1-88ec-749e428a6e9c",
@@ -295,10 +297,10 @@
       "department": "CSE",
       "category": "member",
       "team": "Learning & Platform Development Team",
-      "photo": "",
+      "photo": "https://drive.google.com/uc?export=view&id=1vz4KDEvF_iqVBjaKL2DkzNpJwNNC69O9",
       "linkedin": "https://www.linkedin.com/in/ramya-devadiga-6b807135a",
       "github": "https://github.com/ramyad05",
-      "email": "ramya@codetroopers.club"
+      "email": "ramya.24cs115@sode-edu.in"
     },
     {
       "id": "75de2bbf-ee25-4df5-917f-9cff7fa14336",
@@ -307,10 +309,10 @@
       "department": "CSE",
       "category": "member",
       "team": "Learning & Platform Development Team",
-      "photo": "",
-      "linkedin": "https://www.linkedin.com/in/nisha-shetty-748158339?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "photo": "https://drive.google.com/uc?export=view&id=15c7aZcZf-WBJBaz4IvjSUsjwUawXGCd1",
+      "linkedin": "https://www.linkedin.com/in/nisha-shetty-748158339/",
       "github": "https://github.com/nisha-shetty03",
-      "email": "nisha@codetroopers.club"
+      "email": "nisha.24cs093@sode-edu.in"
     },
     {
       "id": "71222e4f-7c19-467b-a86e-b4982d345078",
@@ -319,10 +321,23 @@
       "department": "CSE",
       "category": "member",
       "team": "Learning & Platform Development Team",
-      "photo": "",
+      "photo": "https://drive.google.com/uc?export=view&id=1SyzYCh6Rkd0YNnsr1lFY4qNoq-AlUIt5",
+      "photoPosition": "center 90%",
       "linkedin": "https://www.linkedin.com/in/saneeya-alkin-451230330",
       "github": "https://github.com/Saneeya44",
-      "email": "saneeya.alkin.riza@codetroopers.club"
+      "email": "saneeya.24cs130@sode-edu.in"
+    },
+    {
+      "id": "e94478e3-ff91-4179-9a2d-a5db93693488",
+      "name": "Samhita S Rao",
+      "position": "Contributor",
+      "department": "CSE",
+      "category": "member",
+      "team": "Learning & Platform Development Team",
+      "photo": "https://drive.google.com/uc?export=view&id=1eFoHE38ZPu1yYXfW_ZPMa71zdfNKTXKB",
+      "linkedin": "https://www.linkedin.com/in/samhitha-s-rao-38496532b",
+      "github": "https://github.com/Samhita06",
+      "email": "samhita.24cs126@sode-edu.in"
     },
     {
       "id": "16086e37-605f-4da8-b797-78fb6c3b2d89",
@@ -331,20 +346,20 @@
       "department": "CSE",
       "category": "team-lead",
       "team": "Events & Operations Team",
-      "photo": "",
-      "linkedin": "https://linkedin.com/in/pratham-pm",
-      "github": "https://github.com/prathampm",
+      "photo": "https://drive.google.com/uc?export=view&id=1Q_mylqas0YWRLjuVE5xbkzdE4UUXgZny",
+      "linkedin": "https://www.linkedin.com/in/pratham-p-marakala-a34a8533a/",
+      "github": "https://github.com/Pratham1317",
       "email": "pratham.pm@codetroopers.club"
     },
     {
       "id": "8ce04500-e053-49dd-96aa-86bed59bea32",
-      "name": "Manoj",
+      "name": "Manoj Kumar",
       "position": "Co-Lead",
       "department": "CSE",
       "category": "co-lead",
       "team": "Events & Operations Team",
-      "photo": "",
-      "linkedin": "https://www.linkedin.com/in/manoj-kumar-008703324?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "photo": "https://drive.google.com/uc?export=view&id=1cUOlMkhbugQcivBiGutt-lqQD1iEKZX7",
+      "linkedin": "https://www.linkedin.com/in/manoj-kumar-008703324/",
       "github": "https://github.com/manoj008-cmd",
       "email": "manoj@codetroopers.club"
     },
@@ -355,10 +370,10 @@
       "department": "CSE",
       "category": "member",
       "team": "Events & Operations Team",
-      "photo": "",
+      "photo": "https://drive.google.com/uc?export=view&id=1Y9FKtQ3sLv5Ka3YCYoskWadccDcXT8rM",
       "linkedin": "https://www.linkedin.com/in/sowjanya-g-4b9196330",
       "github": "https://github.com/Sowjanya-gs",
-      "email": "sowjanya@codetroopers.club"
+      "email": "sowjanya.24cs161@sode-edu.in"
     },
     {
       "id": "17325911-c614-433e-8b6a-af6f4d1cb171",
@@ -367,10 +382,10 @@
       "department": "CSE",
       "category": "member",
       "team": "Events & Operations Team",
-      "photo": "",
+      "photo": "https://drive.google.com/uc?export=view&id=1MbmmlKQMORzbZ0Rp_zgOiAjB3ZiTIQN6",
       "linkedin": "https://www.linkedin.com/in/shreya-v-778a58356",
       "github": "https://github.com/shreya-v-20",
-      "email": "shreya@codetroopers.club"
+      "email": "shreya.24cs150@sode-edu.in"
     },
     {
       "id": "8186e03d-18ba-405d-ab69-fb816d41c6ee",
@@ -379,10 +394,10 @@
       "department": "CSE",
       "category": "member",
       "team": "Events & Operations Team",
-      "photo": "",
-      "linkedin": "https://www.linkedin.com/in/ganavi-sushma-5217a632b?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "photo": "https://drive.google.com/uc?export=view&id=10OMY6W5RNBlqvixawLvlJqJLQWtAfM8U",
+      "linkedin": "https://www.linkedin.com/in/ganavi-sushma-5217a632b/",
       "github": "https://github.com/GanaviSushma",
-      "email": "ganavi@codetroopers.club"
+      "email": "ganavi.24cs048@sode-edu.in"
     },
     {
       "id": "d7d015cf-8f3a-47b9-8515-ab81e4be2ed6",
@@ -391,10 +406,11 @@
       "department": "CSE",
       "category": "member",
       "team": "Events & Operations Team",
-      "photo": "",
+      "photo": "https://drive.google.com/uc?export=view&id=1vppmUzpomNp17Y__diw8-1-oIjRerykz",
+      "photoPosition": "center 60%",
       "linkedin": "https://www.linkedin.com/in/nikhil-naik-b99394314",
       "github": "https://github.com/nikhilnaikdev",
-      "email": "nikhil.naik@codetroopers.club"
+      "email": "nikhil.24cs090@sode-edu.in"
     },
     {
       "id": "a191ad0c-740b-4f81-9adf-ce345bd25a86",
@@ -403,20 +419,20 @@
       "department": "CSE",
       "category": "member",
       "team": "Events & Operations Team",
-      "photo": "",
-      "linkedin": "https://www.linkedin.com/in/disha-poojary-2aa910337?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "photo": "https://drive.google.com/uc?export=view&id=1biVVTHDgnKuWFVN-YUIizU5quE_Hx0rG",
+      "linkedin": "https://www.linkedin.com/in/disha-poojary-2aa910337/",
       "github": "https://github.com/dishapoojary-cse045",
-      "email": "disha.s.poojary@codetroopers.club"
+      "email": "disha.24cs045@sode-edu.in"
     },
     {
       "id": "dd841a3d-c781-49e6-8114-9d290b7271c9",
-      "name": "Vijeth",
+      "name": "K Vijeth V Naik",
       "position": "Team Lead",
       "department": "CSE",
       "category": "team-lead",
       "team": "Media Team",
-      "photo": "",
-      "linkedin": "https://www.linkedin.com/in/k-vijeth-v-naik-058a65291?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "photo": "https://drive.google.com/uc?export=view&id=1qUI5OrNdO_DqVB5dNlKo3_YRR24Ay7Ae",
+      "linkedin": "https://www.linkedin.com/in/k-vijeth-v-naik-058a65291/",
       "github": "https://github.com/Vijeth737",
       "email": "vijeth@codetroopers.club"
     },
@@ -427,34 +443,22 @@
       "department": "CSE",
       "category": "co-lead",
       "team": "Media Team",
-      "photo": "",
-      "linkedin": "https://linkedin.com/in/sanjeeth-shetty",
-      "github": "https://github.com/sanjeethshetty",
+      "photo": "https://drive.google.com/uc?export=view&id=1BzhoSEe5-mA71MzLpaciPrsPmjRAvmAQ",
+      "linkedin": "https://www.linkedin.com/in/sanjeet-shetty-978654280/",
+      "github": "https://github.com/Sanjeet45206",
       "email": "sanjeeth.shetty@codetroopers.club"
     },
     {
       "id": "85e89ec6-cef2-4fbe-bcc5-3a7dcfba4a81",
-      "name": "Vignesh Kumar",
+      "name": "C Vignesh Kumar",
       "position": "Co-Lead",
       "department": "CSE",
       "category": "co-lead",
       "team": "Media Team",
-      "photo": "",
-      "linkedin": "https://linkedin.com/in/vignesh-kumar",
-      "github": "https://github.com/vigneshkumar",
+      "photo": "https://drive.google.com/uc?export=view&id=1ltuC9Znm1MDGdkpwZmFmIolk8cfXtIVN",
+      "linkedin": "https://www.linkedin.com/in/c-vignesh-kumar-8003b7291/",
+      "github": "https://github.com/Vigneshsmvitm",
       "email": "vignesh.kumar@codetroopers.club"
-    },
-    {
-      "id": "e94478e3-ff91-4179-9a2d-a5db93693488",
-      "name": "Shreehari",
-      "position": "Contributor",
-      "department": "CSE",
-      "category": "member",
-      "team": "Media Team",
-      "photo": "",
-      "linkedin": "https://linkedin.com/in/shreehari",
-      "github": "https://github.com/shreehari",
-      "email": "shreehari@codetroopers.club"
     }
   ]
 }

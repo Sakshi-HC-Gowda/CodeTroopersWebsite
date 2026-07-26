@@ -17,19 +17,28 @@ export default function Team() {
   useEffect(() => {
     getTeam()
       .then(r => setMembers(r.data.members))
-      .catch(() => {})
+      .catch(() => { })
       .finally(() => setLoading(false));
   }, []);
 
   const filtered = useMemo(() => {
+    const q = search.toLowerCase().trim();
+    const toStr = val => {
+      if (!val) return '';
+      if (Array.isArray(val)) return val.join(' ').toLowerCase();
+      return String(val).toLowerCase();
+    };
+
     return members.filter(m => {
-      const matchCategory = filter === 'all' || m.category === filter;
-      const q = search.toLowerCase();
+      const matchCategory = filter === 'all' || 
+        (Array.isArray(m.category) ? m.category.includes(filter) : m.category === filter);
+
       const matchSearch = !q ||
-        m.name.toLowerCase().includes(q) ||
-        m.position.toLowerCase().includes(q) ||
-        m.department.toLowerCase().includes(q) ||
-        (m.team && m.team.toLowerCase().includes(q));
+        toStr(m.name).includes(q) ||
+        toStr(m.position).includes(q) ||
+        toStr(m.department).includes(q) ||
+        toStr(m.team).includes(q);
+
       return matchCategory && matchSearch;
     });
   }, [members, search, filter]);
@@ -38,16 +47,22 @@ export default function Team() {
     const order = ['club-head', 'workbench-head', 'faculty-coordinator', 'team-lead', 'co-lead', 'member'];
     const groups = {};
     filtered.forEach(m => {
-      const cat = m.category || 'member';
-      if (!groups[cat]) groups[cat] = [];
-      groups[cat].push(m);
+      const cats = Array.isArray(m.category) ? m.category : [m.category || 'member'];
+      cats.forEach(cat => {
+        // If specific filter selected, only include matching category
+        if (filter !== 'all' && cat !== filter) return;
+        if (!groups[cat]) groups[cat] = [];
+        if (!groups[cat].some(existing => existing.id === m.id)) {
+          groups[cat].push(m);
+        }
+      });
     });
     return order.filter(k => groups[k]?.length).map(k => ({
       category: k,
       label: teamCategories.find(c => c.slug === k)?.label || k,
       members: groups[k]
     }));
-  }, [filtered]);
+  }, [filtered, filter]);
 
   return (
     <>
@@ -85,25 +100,19 @@ export default function Team() {
             <p className={styles.loading}>Loading team...</p>
           ) : filtered.length === 0 ? (
             <p className={styles.empty}>No members found matching your search.</p>
-          ) : filter === 'all' ? (
+          ) : (
             grouped.map(group => (
               <div key={group.category} className={styles.group}>
                 <FadeIn>
                   <h2 className={styles.groupTitle}>{group.label}</h2>
                 </FadeIn>
-                <StaggerContainer className="grid-4">
+                <StaggerContainer key={`${filter}-${search}-${group.category}`} className="grid-4">
                   {group.members.map(m => (
                     <StaggerItem key={m.id}><TeamCard member={m} /></StaggerItem>
                   ))}
                 </StaggerContainer>
               </div>
             ))
-          ) : (
-            <StaggerContainer className="grid-4">
-              {filtered.map(m => (
-                <StaggerItem key={m.id}><TeamCard member={m} /></StaggerItem>
-              ))}
-            </StaggerContainer>
           )}
         </div>
       </section>
