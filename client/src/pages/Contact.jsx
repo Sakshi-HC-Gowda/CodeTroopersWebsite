@@ -120,13 +120,21 @@ export default function Contact() {
               </FadeIn>
 
               <FadeIn delay={2}>
-                <div className={styles.map}>
-                  <div className={styles.mapPlaceholder}>
-                    <HiLocationMarker />
-                    <p>Google Map Placeholder</p>
-                    <span>CSE Department, College Campus</span>
-                  </div>
-                </div>
+              <div className={styles.map}>
+  <iframe
+    title="SMVITM Bantakal"
+    src="https://www.google.com/maps?q=Shri+Madhwa+Vadiraja+Institute+of+Technology+and+Management,+Bantakal,+Udupi&output=embed"
+    width="100%"
+    height="100%"
+    style={{
+      border: 0,
+      borderRadius: "12px"
+    }}
+    loading="lazy"
+    allowFullScreen
+    referrerPolicy="no-referrer-when-downgrade"
+  />
+</div>
               </FadeIn>
             </div>
           </div>
