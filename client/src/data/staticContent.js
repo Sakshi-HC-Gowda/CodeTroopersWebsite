@@ -141,19 +141,6 @@ export const organizationStructure = [
       'Sprint planning and milestone delivery'
     ],
     kpis: ['Sprint completion rate', 'GitHub contributions', 'Project milestones achieved']
-  },
-  {
-    id: 'media-team',
-    title: 'Media Team',
-    type: 'functional',
-    objective: 'Manage photography, videography, media promotion, and visual branding for all club activities.',
-    responsibilities: [
-      'Event photography and videography coverage',
-      'Social media content creation and digital promotion',
-      'Promotional poster, banner, and visual asset design',
-      'Event recap videos and digital media archive maintenance'
-    ],
-    kpis: ['Social media engagement growth', 'Content delivery turnaround time (24-48h)', 'Media archive quality & completeness']
   }
 ];
 
