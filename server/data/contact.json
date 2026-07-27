@@ -37,5 +37,14 @@
       "answer": "Yes! Any member can propose an activity. Submit your idea to the Events & Operations Team lead, who will guide you through the approval workflow."
     }
   ],
-  "submissions": []
+  "submissions": [
+    {
+      "id": "01b813a1-172f-426d-be00-d74a8b70837b",
+      "name": "sakshi",
+      "email": "sakshi.23cs130@sode-edu.in",
+      "subject": "Sub",
+      "message": "HI",
+      "submittedAt": "2026-07-27T15:42:31.562Z"
+    }
+  ]
 }
