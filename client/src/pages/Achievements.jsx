@@ -50,7 +50,7 @@ export default function Achievements() {
             </div>
           </FadeIn>
 
-          <div className={styles.grid}>
+          <div key={filter} className={styles.grid}>
             {filtered.map((a, i) => (
               <FadeIn key={a.id} delay={i % 4}>
                 <Link to={`/achievements/${a.id}`} className={styles.cardLink}>

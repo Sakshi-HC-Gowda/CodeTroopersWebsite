@@ -51,7 +51,7 @@ export default function Gallery() {
             </div>
           </FadeIn>
 
-          <div className={styles.grid}>
+          <div key={filter} className={styles.grid}>
             {filtered.map((item, i) => (
               <FadeIn key={item.id} delay={i % 6}>
                 <HoverCard>
