@@ -58,8 +58,8 @@
       "department": "CSE",
       "category": "member",
       "team": [
-        "Workbench Team",
-        "Project Development Team 1"
+         "Workbench Team",
+         "Project Development Team 1"
       ],
       "photo": "https://drive.google.com/uc?export=view&id=1DevHQS0yTHWlHikG7pdhjjz1CG9MKpY_",
       "linkedin": "https://www.linkedin.com/in/thejas-bk-96a6b9330",
@@ -122,8 +122,8 @@
       "category": "co-lead",
       "team": "Project Development Team 1",
       "photo": "https://drive.google.com/uc?export=view&id=1zcbnUlXVHnvDtxG9Z4eHGcEL47SZAkrS",
-      "linkedin": "https://linkedin.com/in/adarsh-devadiga",
-      "github": "https://github.com/adarshdevadiga",
+      "linkedin": "https://www.linkedin.com/in/adarsh-devadiga-510aa028b?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "github": "https://github.com/AdarshBantakal",
       "email": "adarsh.devadiga@codetroopers.club"
     },
     {
@@ -158,7 +158,7 @@
       "category": "team-lead",
       "team": "Project Development Team 2",
       "photo": "https://drive.google.com/uc?export=view&id=1w06Z-JVdlqHwTgQLnCvtbWa3PVhUzzyz",
-      "linkedin": "https://www.linkedin.com/in/bhuvan-kumar-2a9589323/",
+      "linkedin": "https://www.linkedin.com/in/bhuvan-kumar-2a9589323?utm_source=share_via&utm_content=profile&utm_medium=member_android",
       "github": "https://github.com/BhuvanSKumar1",
       "email": "bhuvan.kumar@codetroopers.club"
     },
@@ -340,6 +340,18 @@
       "email": "samhita.24cs126@sode-edu.in"
     },
     {
+      "id": "",
+      "name": "Samhitha S Rao",
+      "position": "Contributor",
+      "department": "CSE",
+      "category": "member",
+      "team": "Learning & Platform Development Team",
+      "photo": "",
+      "linkedin": "https://www.linkedin.com/in/samhitha-s-rao-38496532b",
+      "github": "https://github.com/Samhita06",
+      "email": "samhitha.s.rao@codetroopers.club"
+    },
+    {
       "id": "16086e37-605f-4da8-b797-78fb6c3b2d89",
       "name": "Pratham P.M",
       "position": "Team Lead",
@@ -347,7 +359,7 @@
       "category": "team-lead",
       "team": "Events & Operations Team",
       "photo": "https://drive.google.com/uc?export=view&id=1Q_mylqas0YWRLjuVE5xbkzdE4UUXgZny",
-      "linkedin": "https://www.linkedin.com/in/pratham-p-marakala-a34a8533a/",
+      "linkedin": "https://www.linkedin.com/in/pratham-p-marakala-a34a8533a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
       "github": "https://github.com/Pratham1317",
       "email": "pratham.pm@codetroopers.club"
     },
@@ -444,7 +456,7 @@
       "category": "co-lead",
       "team": "Media Team",
       "photo": "https://drive.google.com/uc?export=view&id=1BzhoSEe5-mA71MzLpaciPrsPmjRAvmAQ",
-      "linkedin": "https://www.linkedin.com/in/sanjeet-shetty-978654280/",
+      "linkedin": "https://www.linkedin.com/in/sanjeet-shetty-978654280?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
       "github": "https://github.com/Sanjeet45206",
       "email": "sanjeeth.shetty@codetroopers.club"
     },
@@ -456,7 +468,7 @@
       "category": "co-lead",
       "team": "Media Team",
       "photo": "https://drive.google.com/uc?export=view&id=1ltuC9Znm1MDGdkpwZmFmIolk8cfXtIVN",
-      "linkedin": "https://www.linkedin.com/in/c-vignesh-kumar-8003b7291/",
+      "linkedin": "https://www.linkedin.com/in/c-vignesh-kumar-8003b7291?utm_source=share_via&utm_content=profile&utm_medium=member_android",
       "github": "https://github.com/Vigneshsmvitm",
       "email": "vignesh.kumar@codetroopers.club"
     }
