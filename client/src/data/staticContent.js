@@ -200,7 +200,7 @@ export const workbenchContent = {
   },
   communicationPolicy: {
     title: 'Communication Policy',
-    platforms: ['WhatsApp', 'Discord', 'GitHub', 'Google Drive', 'Workbench Portal'],
+    platforms: ['WhatsApp', 'GitHub', 'Google Drive', 'Workbench Portal'],
     rule: 'Important decisions must be documented and communicated through official channels only.'
   },
   meetingPolicy: {

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { HiChevronDown, HiMail, HiPhone, HiLocationMarker } from 'react-icons/hi';
-import { FaGithub, FaLinkedin, FaInstagram, FaDiscord, FaTwitter } from 'react-icons/fa';
+import { HiChevronDown, HiMail, HiLocationMarker } from 'react-icons/hi';
+import { FaGithub, FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 import SEOHead from '../components/SEOHead';
 import PageHeader from '../components/PageHeader';
@@ -12,7 +12,6 @@ const socialIcons = {
   github: FaGithub,
   linkedin: FaLinkedin,
   instagram: FaInstagram,
-  discord: FaDiscord,
   twitter: FaTwitter
 };
 
@@ -102,7 +101,6 @@ export default function Contact() {
                   {info && (
                     <>
                       <p><HiMail /> {info.info.email}</p>
-                      <p><HiPhone /> {info.info.phone}</p>
                       <p><HiLocationMarker /> {info.info.address}</p>
                       <div className={styles.social}>
                         {Object.entries(info.info.social).map(([key, url]) => {
