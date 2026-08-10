@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { HiX } from 'react-icons/hi';
+import { HiX, HiChevronLeft, HiChevronRight } from 'react-icons/hi';
 import { motion, AnimatePresence } from 'framer-motion';
 import SEOHead from '../components/SEOHead';
 import PageHeader from '../components/PageHeader';
@@ -33,6 +33,26 @@ export default function Gallery() {
   }, []);
 
   const filtered = filter === 'all' ? items : items.filter(i => i.category === filter);
+  const currentEvent = lightbox?.event;
+  const currentImage = currentEvent ? currentEvent.images[lightbox.index] : null;
+
+  const showPrevious = () => {
+    if (!currentEvent) return;
+    setLightbox(prev => ({
+      ...prev,
+      index: (prev.index - 1 + currentEvent.images.length) % currentEvent.images.length
+    }));
+  };
+
+  const showNext = () => {
+    if (!currentEvent) return;
+    setLightbox(prev => ({
+      ...prev,
+      index: (prev.index + 1) % currentEvent.images.length
+    }));
+  };
+
+  const getCategoryLabel = (slug) => categories.find(c => c.slug === slug)?.label || slug;
 
   return (
     <>
@@ -55,10 +75,14 @@ export default function Gallery() {
             {filtered.map((item, i) => (
               <FadeIn key={item.id} delay={i % 6}>
                 <HoverCard>
-                  <div className={styles.item} onClick={() => setLightbox(item)}>
-                    <img src={item.image} alt={item.title} loading="lazy" />
+                  <div className={styles.item} onClick={() => setLightbox({ event: item, index: 0 })}>
+                    <img src={item.cover} alt={item.title} loading="lazy" />
                     <div className={styles.overlay}>
                       <span>{item.title}</span>
+                      <div className={styles.overlayMeta}>
+                        <span>{getCategoryLabel(item.category)}</span>
+                        <span>{item.images.length} Photos</span>
+                      </div>
                     </div>
                   </div>
                 </HoverCard>
@@ -69,7 +93,7 @@ export default function Gallery() {
       </section>
 
       <AnimatePresence>
-        {lightbox && (
+        {lightbox && currentEvent && (
           <motion.div
             className={styles.lightbox}
             initial={{ opacity: 0 }}
@@ -80,6 +104,12 @@ export default function Gallery() {
             <button className={styles.closeBtn} onClick={() => setLightbox(null)} aria-label="Close">
               <HiX />
             </button>
+            <button className={`${styles.navBtn} ${styles.prevBtn}`} onClick={(e) => { e.stopPropagation(); showPrevious(); }} aria-label="Previous image">
+              <HiChevronLeft />
+            </button>
+            <button className={`${styles.navBtn} ${styles.nextBtn}`} onClick={(e) => { e.stopPropagation(); showNext(); }} aria-label="Next image">
+              <HiChevronRight />
+            </button>
             <motion.div
               className={styles.lightboxContent}
               initial={{ scale: 0.9 }}
@@ -87,8 +117,9 @@ export default function Gallery() {
               exit={{ scale: 0.9 }}
               onClick={e => e.stopPropagation()}
             >
-              <img src={lightbox.image} alt={lightbox.title} />
-              <p>{lightbox.title}</p>
+              <img src={currentImage} alt={`${currentEvent.title} ${lightbox.index + 1}`} />
+              <p>{currentEvent.title}</p>
+              <span className={styles.lightboxMeta}>{lightbox.index + 1} of {currentEvent.images.length} Photos</span>
             </motion.div>
           </motion.div>
         )}
