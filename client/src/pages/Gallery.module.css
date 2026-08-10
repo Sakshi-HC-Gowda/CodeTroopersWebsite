@@ -65,9 +65,10 @@
 .overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(transparent 45%, rgba(13, 5, 7, 0.92));
+  background: linear-gradient(transparent 40%, rgba(13, 5, 7, 0.92));
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
   padding: 1.25rem;
   opacity: 0;
   transition: opacity var(--transition);
@@ -82,6 +83,52 @@
   font-weight: 600;
   font-size: 0.9375rem;
   font-family: var(--font-heading);
+}
+
+.overlayMeta {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.lightboxMeta {
+  display: block;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-top: 0.65rem;
+}
+
+.navBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-primary);
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 2001;
+  transition: background var(--transition);
+}
+
+.navBtn:hover {
+  background: rgba(201, 151, 58, 0.9);
+}
+
+.prevBtn {
+  left: 1.5rem;
+}
+
+.nextBtn {
+  right: 1.5rem;
 }
 
 .lightbox {

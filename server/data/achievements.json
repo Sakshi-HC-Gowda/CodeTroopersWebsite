@@ -7,8 +7,8 @@
       "description": "Gyan Bit is a peer-learning initiative launched by the Department of Computer Science and Engineering in collaboration with the Code Troopers Club. The initiative aims to create a platform where students can share their technical knowledge, practical experiences, and innovative ideas with their peers. Conducted as a series of weekly tech talks every Monday within the institute premises, Gyan Bit encourages collaborative learning, enhances presentation and communication skills, and exposes students to emerging technologies, programming concepts, and industry trends beyond the classroom curriculum.",
       "date": "2025-02-03",
       "image": [
-        "/uploads/image1.jpeg",
-        "/uploads/image2.jpeg"
+        "/uploads/technical-talks/1.jpg",
+        "/uploads/technical-talks/2.jpg"
       ],
       "tags": [
         "Peer Learning",
@@ -28,7 +28,7 @@
       "category": "community-impact",
       "description": "The Department of Computer Science & Engineering, in association with the Code Troopers Club and the IEEE Student Branch of Shri Madhwa Vadiraja Institute of Technology and Management, organized a guest talk titled \"Journey from Idea to Application – A Guide on Hackathons\" on February 22, 2025. The session was delivered by Ms. Charis Pinto, Cloud Solution Architect at Niveus Solutions, who shared her professional experience and provided valuable insights into the hackathon ecosystem. She explained the complete journey of transforming an innovative idea into a functional application, emphasizing problem identification, solution design, teamwork, prototyping, and effective project presentation.",
       "date": "2025-02-22",
-      "image": "/uploads/image3.jpeg",
+      "image": "/uploads/technical-talks/cover.jpg",
       "tags": [
         "Hackathon Guide",
         "Prototyping",
@@ -42,31 +42,17 @@
       ]
     },
     {
-      "id": "ach-003",
-      "title": "Python Refresher & Streamlit Masterclass",
-      "category": "community-impact",
-      "description": "The Code Troopers Club of the Department of Computer Science & Engineering, in collaboration with the Department of Basic Science, successfully conducted a peer-learning workshop titled \"Python Refresher & Streamlit Masterclass\" to strengthen students' programming skills and provide hands-on exposure to modern Python frameworks. The workshop focused on revisiting fundamental Python concepts while introducing Streamlit, an open-source Python library for developing interactive web applications for data science and machine learning. The session was effectively led by three third-year Computer Science & Engineering students—Sumedh Navuda, Satvik Bhat, and Vikas—who shared their technical expertise through practical demonstrations and interactive discussions, making the learning experience engaging and accessible. The workshop received an enthusiastic response from the participants and successfully fostered a collaborative learning environment, highlighting the effectiveness of peer-led initiatives in encouraging knowledge sharing, practical skill development, and continuous technical growth among students.",
-      "date": "2025-03-10",
-      "image": "/uploads/image4.jpeg",
-      "tags": [
-        "Python",
-        "Streamlit",
-        "Data Science",
-        "Web Development"
-      ],
-      "highlights": [
-        "Revisited fundamental Python programming concepts",
-        "Hands-on masterclass on building Streamlit web applications",
-        "Led by third-year peer student facilitators Sumedh, Satvik, and Vikas"
-      ]
-    },
-    {
       "id": "ach-004",
       "title": "AI NEXUS",
       "category": "community-impact",
       "description": "The AI & Object Detection Peer Learning Workshop was organized to introduce students to emerging technologies in Artificial Intelligence, with a focus on Large Language Models (LLMs), chatbot development, and computer vision techniques such as object detection. Conducted through a peer-learning approach, the workshop featured student facilitators who delivered both theoretical concepts and practical demonstrations in an interactive and engaging manner. Participants explored the fundamentals of AI, gained insights into the working of LLMs and object detection systems, and received hands-on experience in developing AI applications, including chatbots using APIs and real-time object detection using YOLO. The workshop successfully enhanced participants' understanding of modern AI technologies and their real-world applications, equipping them with the knowledge and confidence to build their own AI-powered solutions while promoting collaborative learning and technical innovation.",
       "date": "2025-04-15",
-      "image": "/uploads/image5.png",
+      "image": "/uploads/workshops/ai-nexus/1.jpg",
+      "images": [
+        "/uploads/workshops/ai-nexus/1.jpg",
+        "/uploads/workshops/ai-nexus/2.jpg",
+        "/uploads/workshops/ai-nexus/3.jpg"
+      ],
       "tags": [
         "AI Chatbots",
         "Object Detection",
@@ -85,12 +71,12 @@
       "category": "community-impact",
       "description": "The Code Troopers Club of the Department of Computer Science and Engineering, in association with the IEEE Student Branch of SMVITM, successfully conducted a three-day workshop on Full Stack Web Development from 10–12 November 2025. The sessions were led by third-year CSE students Abhishek Kini, Deepa D. Prabhu, Chirashree, and Tejas Nayak, who guided participants through the complete web development lifecycle. On the first day, participants learned the fundamentals of frontend development by creating and styling a student registration form, strengthening their understanding of UI design and interactivity. The second day focused on backend development using Spring Boot, where participants built REST APIs, performed CRUD operations, integrated frontend applications with backend services, and deployed functional APIs. The final day introduced React, enabling participants to develop dynamic, component-based applications, connect them with backend APIs, and deploy complete full-stack projects. Throughout the workshop, students actively participated in coding exercises, hands-on activities, peer learning sessions, and collaborative discussions, fostering teamwork and practical problem-solving skills. The workshop concluded successfully, equipping participants with a strong foundation in modern full-stack web development while providing valuable real-world development experience in an engaging and interactive learning environment.",
       "date": "2025-11-10",
-      "image": "/uploads/image6.png",
-      "tags": [
-        "Spring Boot",
-        "React",
-        "REST APIs",
-        "CRUD Operations"
+      "image": "/uploads/workshops/full-stack-web-development/cover.jpg",
+      "images": [
+        "/uploads/workshops/full-stack-web-development/1.jpg",
+        "/uploads/workshops/full-stack-web-development/2.jpg",
+        "/uploads/workshops/full-stack-web-development/3.jpg",
+        "/uploads/workshops/full-stack-web-development/4.jpg"
       ],
       "highlights": [
         "Day 1: Frontend basics, student registration styling and layout",
@@ -104,7 +90,14 @@
       "category": "hackathon-wins",
       "description": "Hackotsava is an innovation-driven hackathon that brings together students, developers, and technology enthusiasts to solve real-world challenges through creativity and collaboration. Participants will work in teams to ideate, design, and develop innovative solutions based on industry-provided problem statements within a limited timeframe. The event offers a platform to enhance technical skills, receive guidance from experienced mentors, network with industry professionals, and showcase talent before expert judges, culminating in project presentations, evaluation, and recognition of the best-performing teams.",
       "date": "2025-12-05",
-      "image": "/uploads/image7.png",
+      "image": "/uploads/hackathons/hackothsava-2023/1.jpg",
+      "images": [
+        "/uploads/hackathons/hackothsava-2023/1.jpg",
+        "/uploads/hackathons/hackothsava-2023/2.jpg",
+        "/uploads/hackathons/hackothsava-2023/3.jpg",
+        "/uploads/hackathons/hackothsava-2023/4.jpg",
+        "/uploads/hackathons/hackothsava-2023/5.jpg"
+      ],
       "tags": [
         "Hackathon",
         "Collaboration",
@@ -115,44 +108,6 @@
         "Innovation-driven team hackathon event based on industry statements",
         "Direct mentorship and evaluation by tech industry professionals",
         "Excellent platform to network, showcase skills, and earn recognition"
-      ]
-    },
-    {
-      "id": "ach-007",
-      "title": "The Palm Leaf Manuscript Digitization Project",
-      "category": "projects",
-      "description": "The Palm Leaf Manuscript Digitization Project is an AI-powered digital preservation initiative aimed at safeguarding ancient Tulu palm leaf manuscripts by converting them into searchable digital records. Our solution combines image preprocessing, OCR, and intelligent text management to extract and organize manuscript content while preserving the original images. The project delivered a centralized digital repository that simplifies archival, retrieval, and long-term preservation of these culturally significant documents, demonstrating how modern AI and software technologies can help protect and make accessible valuable historical heritage.",
-      "date": "2025-09-01",
-      "image": "/uploads/image8.png",
-      "tags": [
-        "AI Preservation",
-        "OCR Text Extraction",
-        "Image Preprocessing",
-        "Centralized Archive"
-      ],
-      "highlights": [
-        "Preservation of historical ancient Tulu palm leaf manuscripts",
-        "Combines advanced image preprocessing and custom OCR technology",
-        "Delivered searchable digital records and repository archives"
-      ]
-    },
-    {
-      "id": "ach-008",
-      "title": "Folklore Diaries",
-      "category": "projects",
-      "description": "Folklore Diaries is a digital knowledge management platform developed to preserve, organize, and provide easy access to traditional folklore and medicinal knowledge. The system enables researchers and domain experts to maintain a structured repository of medicinal plants, their scientific and local names, therapeutic uses, preparation methods, research references, and supporting media. By digitizing and centralizing this valuable indigenous knowledge, the project delivered an efficient, searchable, and scalable knowledge management solution that supports long-term preservation, research, and future integration with AI-driven analysis.",
-      "date": "2025-10-15",
-      "image": "/uploads/image9.png",
-      "tags": [
-        "Knowledge Management",
-        "Medicinal Plants",
-        "Digital Archives",
-        "Scalable Search"
-      ],
-      "highlights": [
-        "Structured repository mapping scientific names and local uses",
-        "Preserves traditional indigenous folklore and medicinal botany",
-        "Built as a scalable, searchable, and AI-integrable archive platform"
       ]
     }
   ]
