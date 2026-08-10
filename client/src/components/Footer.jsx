@@ -4,12 +4,10 @@ import {
   FaGithub,
   FaLinkedin,
   FaInstagram,
-  FaDiscord,
   FaTwitter,
 } from 'react-icons/fa';
 import {
   HiMail,
-  HiPhone,
   HiLocationMarker,
 } from 'react-icons/hi';
 
@@ -19,7 +17,6 @@ const socialIcons = {
   github: FaGithub,
   linkedin: FaLinkedin,
   instagram: FaInstagram,
-  discord: FaDiscord,
   twitter: FaTwitter,
 };
 
@@ -83,10 +80,6 @@ export default function Footer() {
 
             <p>
               <HiMail /> {contactData.info.email}
-            </p>
-
-            <p>
-              <HiPhone /> {contactData.info.phone}
             </p>
 
             <p>
