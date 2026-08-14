@@ -25,8 +25,8 @@ export default function Events() {
     const today = new Date().toISOString().split('T')[0];
     const list = Array.isArray(events) ? events : events.events || [];
     return {
-      upcoming: list.filter(e => e.date >= today || e.status === 'upcoming'),
-      past: list.filter(e => e.date < today && e.status !== 'upcoming')
+      upcoming: list.filter(e => e.status === 'upcoming' || (e.status !== 'past' && e.date && e.date >= today)),
+      past: list.filter(e => e.status === 'past' || (e.status !== 'upcoming' && (!e.date || e.date < today)))
     };
   }, [events]);
 

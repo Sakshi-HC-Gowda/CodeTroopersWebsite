@@ -110,8 +110,7 @@
 
 .visionCard,
 .missionCard,
-.achievementCard,
-.testimonial {
+.achievementCard {
   background: var(--card-bg);
   border-radius: var(--radius-lg);
   border: 1px solid var(--borders);
@@ -122,8 +121,7 @@
 
 .visionCard:hover,
 .missionCard:hover,
-.achievementCard:hover,
-.testimonial:hover {
+.achievementCard:hover {
   border-color: rgba(201, 151, 58, 0.35);
   box-shadow: 0 16px 36px rgba(13, 5, 7, 0.6), var(--shadow-glow-gold);
 }
@@ -166,7 +164,7 @@
 }
 
 .stats {
-  background: 
+  background:
     radial-gradient(circle at 50% 50%, rgba(123, 28, 46, 0.22), transparent 72%),
     #090304;
   border-top: 1px solid var(--borders);
@@ -328,65 +326,10 @@
   font-family: var(--font-heading);
 }
 
-.testimonial {
-  padding: 2.25rem;
-}
 
-.quote {
-  font-size: 1rem;
-  color: var(--text-muted);
-  line-height: 1.8;
-  font-style: italic;
-  margin-bottom: 1.5rem;
-  position: relative;
-}
-
-.quote::before {
-  content: '“';
-  font-size: 3rem;
-  position: absolute;
-  top: -1.5rem;
-  left: -0.75rem;
-  color: rgba(201, 151, 58, 0.15);
-  font-family: var(--font-heading);
-}
-
-.testimonialAuthor {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  border-top: 1px solid var(--borders);
-  padding-top: 1.25rem;
-}
-
-.avatar {
-  width: 48px;
-  height: 48px;
-  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
-  color: var(--text-primary);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 800;
-  font-size: 0.9rem;
-  box-shadow: 0 8px 20px rgba(123, 28, 46, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.testimonialAuthor strong {
-  display: block;
-  font-size: 0.95rem;
-  color: var(--text-primary);
-}
-
-.testimonialAuthor span {
-  font-size: 0.8rem;
-  color: var(--text-muted);
-}
 
 .join {
-  background: 
+  background:
     radial-gradient(circle at 15% 50%, rgba(123, 28, 46, 0.25) 0%, transparent 60%),
     radial-gradient(circle at 85% 50%, rgba(201, 151, 58, 0.12) 0%, transparent 60%),
     #120709;
@@ -453,8 +396,7 @@
 
   .aboutCard,
   .visionCard,
-  .missionCard,
-  .testimonial {
+  .missionCard {
     border-radius: var(--radius-md);
   }
 }

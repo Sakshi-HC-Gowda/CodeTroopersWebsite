@@ -36,14 +36,53 @@
   gap: 1rem;
 }
 
-.item {
+.folderCard {
   position: relative;
+  background: var(--card-bg);
   border-radius: var(--radius-lg);
-  overflow: hidden;
-  cursor: pointer;
-  aspect-ratio: 4/3;
+  padding: 0.5rem 0.5rem 0.75rem 0.5rem;
   border: 1px solid var(--borders);
   transition: all var(--transition);
+  cursor: pointer;
+}
+
+.folderCard:hover {
+  border-color: rgba(201, 151, 58, 0.4);
+  box-shadow: 0 14px 32px rgba(13, 5, 7, 0.6), var(--shadow-glow-gold);
+}
+
+.folderTab {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.35rem;
+  padding: 0 0.4rem;
+}
+
+.folderTag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.photoCount {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.item {
+  position: relative;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  aspect-ratio: 4/3;
+  border: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .item:hover {
