@@ -2,12 +2,12 @@ export const clubInfo = {
   name: 'CODE TROOPERS',
   tagline: 'Learn. Build. Lead.',
   secondaryTagline: 'Transforming Students into Industry-Ready Developers.',
-  introduction: 'The Code Troopers Club is a student-driven technical community established to foster innovation, technical excellence, leadership, collaboration, and project-based learning among students. The club serves as a platform where members learn industry-relevant skills, build real-world projects, organize impactful events, and prepare themselves for professional careers in technology and entrepreneurship.',
-  vision: 'To build one of the strongest student developer communities that empowers students to become skilled engineers, innovators, founders, and technology leaders.',
+  introduction: 'The Code Troopers Club is a student-driven technical community established to foster innovation, technical excellence, leadership, collaboration and project-based learning among students. The club serves as a platform where members learn industry-relevant skills, build real-world projects, organize impactful events and prepare themselves for professional careers in technology and entrepreneurship.',
+  vision: 'To build one of the strongest student developer communities that empowers students to become skilled engineers, innovators, founders and technology leaders.',
   mission: [
     'Promote practical learning beyond academics.',
     'Encourage collaborative software development.',
-    'Organize workshops, hackathons, and technical events.',
+    'Organize workshops, hackathons and technical events.',
     'Develop impactful products and solutions.',
     'Create a strong culture of mentorship and leadership.',
     'Build a sustainable learning ecosystem through Workbench.'
@@ -101,7 +101,7 @@ export const organizationStructure = [
     objective: 'Build and maintain the Workbench ecosystem.',
     responsibilities: [
       'Platform development and UI/UX improvements',
-      'Deployment, bug fixing, and feature implementation',
+      'Deployment, bug fixing and feature implementation',
       'Maintain platform stability and user engagement'
     ],
     kpis: ['Release frequency', 'Platform stability', 'User engagement metrics']
@@ -109,11 +109,12 @@ export const organizationStructure = [
   {
     id: 'pd-team-1',
     title: 'Project Development Team 1',
+    name: 'Project Team 1 — Ayurvedic Diagnostic System',
     type: 'project',
-    objective: 'Develop real-world products as an independent development unit.',
+    objective: 'Develop an intelligent system that collects patient responses through a questionnaire and generates a preliminary diagnostic report, helping doctors with faster and more structured analysis.',
     responsibilities: [
       'Software development and testing',
-      'Documentation, research, and deployment',
+      'Documentation, research and deployment',
       'Sprint planning and milestone delivery'
     ],
     kpis: ['Sprint completion rate', 'GitHub contributions', 'Project milestones achieved']
@@ -121,11 +122,12 @@ export const organizationStructure = [
   {
     id: 'pd-team-2',
     title: 'Project Development Team 2',
+    name: 'Project Team 2 — Smart Canteen System',
     type: 'project',
-    objective: 'Develop real-world products as an independent development unit.',
+    objective: 'Refine and enhance the existing Smart Canteen system to create a seamless, digital-first canteen experience that improves efficiency for both users and management.',
     responsibilities: [
       'Software development and testing',
-      'Documentation, research, and deployment',
+      'Documentation, research and deployment',
       'Sprint planning and milestone delivery'
     ],
     kpis: ['Sprint completion rate', 'GitHub contributions', 'Project milestones achieved']
@@ -133,11 +135,12 @@ export const organizationStructure = [
   {
     id: 'pd-team-3',
     title: 'Project Development Team 3',
+    name: 'Project Team 3 — Code Troopers Official Website',
     type: 'project',
-    objective: 'Develop real-world products as an independent development unit.',
+    objective: 'Design and develop a responsive, user-friendly website that highlights achievements, team members and essential information, while ensuring smooth navigation and a professional look.',
     responsibilities: [
       'Software development and testing',
-      'Documentation, research, and deployment',
+      'Documentation, research and deployment',
       'Sprint planning and milestone delivery'
     ],
     kpis: ['Sprint completion rate', 'GitHub contributions', 'Project milestones achieved']
@@ -145,70 +148,84 @@ export const organizationStructure = [
 ];
 
 export const workbenchContent = {
-  overview: 'Workbench is Code Troopers\' internal learning ecosystem — a platform where members access structured roadmaps, track skill progress, manage projects, and collaborate on technical initiatives. It serves as the backbone of our sustainable learning culture.',
-  technicalRoadmap: {
-    title: 'Technical Roadmap',
-    phases: [
-      { phase: 'Phase 1 — Foundation', items: ['Platform architecture setup', 'User authentication & profiles', 'Basic roadmap viewer', 'GitHub integration'] },
-      { phase: 'Phase 2 — Learning Engine', items: ['Structured learning paths', 'Assessment modules', 'Progress tracking dashboard', 'Certificate generation'] },
-      { phase: 'Phase 3 — Collaboration', items: ['Project management tools', 'Team workspaces', 'Code review integration', 'Contribution point tracking'] },
-      { phase: 'Phase 4 — Scale', items: ['Analytics & reporting', 'Mobile responsiveness', 'API for external integrations', 'Alumni mentorship portal'] }
+  overview: 'Workbench is Code Troopers\' internal learning ecosystem — a platform where members access structured roadmaps, track skill progress, manage projects and collaborate on technical initiatives. It serves as the backbone of our sustainable learning culture.',
+  tagline: 'Build. Collaborate. Ship.',
+  howItWorks: {
+    title: 'How It Works',
+    subtitle: 'A structured 6-step path taking members from foundational skills to shipping production software.',
+    steps: [
+      { step: 1, title: 'Choose Track', desc: 'Select a domain matching your goals: Full Stack, DSA, Cloud/DevOps, or AI/ML.' },
+      { step: 2, title: 'Learn & Practice', desc: 'Work through hands-on resources, practical tasks and domain benchmarks.' },
+      { step: 3, title: 'Build', desc: 'Apply skills by engineering features for active client and college projects.' },
+      { step: 4, title: 'Code Review', desc: 'Submit Pull Requests for peer and lead code reviews to ensure production quality.' },
+      { step: 5, title: 'Contribute', desc: 'Earn contribution points by shipping code, resolving issues and helping teammates.' },
+      { step: 6, title: 'Grow', desc: 'Unlock senior contributor roles, team lead opportunities and industry endorsements.' }
     ]
   },
-  learningRoadmap: {
-    title: 'Learning Roadmap',
+  learningTracks: {
+    title: 'Learning Tracks',
+    subtitle: 'Specialized domain roadmaps designed for step-by-step technical progression.',
     tracks: [
-      { track: 'Web Development', levels: ['HTML/CSS/JS Basics', 'React & Node.js', 'Full Stack Projects', 'Production Deployment'] },
-      { track: 'Competitive Programming', levels: ['Data Structures', 'Algorithms', 'Advanced CP', 'Contest Preparation'] },
-      { track: 'Cloud & DevOps', levels: ['Linux & Networking', 'Docker & Kubernetes', 'AWS/GCP Fundamentals', 'CI/CD Pipelines'] },
+      { track: 'Full Stack', levels: ['HTML/CSS/JS Basics', 'React & Node.js', 'Full Stack Projects', 'Production Deployment'] },
+      { track: 'DSA', levels: ['Data Structures', 'Algorithms', 'Advanced CP', 'Contest Preparation'] },
+      { track: 'Cloud/DevOps', levels: ['Linux & Networking', 'Docker & Kubernetes', 'AWS/GCP Fundamentals', 'CI/CD Pipelines'] },
       { track: 'AI/ML', levels: ['Python & NumPy', 'Machine Learning Basics', 'Deep Learning', 'LLM Applications'] }
     ]
   },
-  githubPolicy: {
-    title: 'GitHub Policy',
-    rules: [
-      'All technical teams must use GitHub for version control.',
-      'Follow the branch strategy: main → develop → feature/*',
-      'Create Pull Requests for all code changes.',
-      'Maintain README and documentation in every repository.',
-      'Conduct peer reviews before merging.',
-      'Direct pushes to the main branch are prohibited.'
+  workingProjects: {
+    title: 'Build with CodeTroopers',
+    subtitle: 'Official project teams and member-driven software initiatives.',
+    teams: [
+      {
+        id: 'team-1',
+        teamName: 'Project Team 1',
+        title: 'Ayurvedic Diagnostic System',
+        badge: 'SDM College Project',
+        objective: 'Develop an intelligent system that collects patient responses through a questionnaire and generates a preliminary diagnostic report, helping doctors with faster and more structured analysis.'
+      },
+      {
+        id: 'team-2',
+        teamName: 'Project Team 2',
+        title: 'Smart Canteen System',
+        badge: 'Karmic Solutions – Stipend Project',
+        objective: 'Refine and enhance the existing Smart Canteen system to create a seamless, digital-first canteen experience that improves efficiency for both users and management.'
+      },
+      {
+        id: 'team-3',
+        teamName: 'Project Team 3',
+        title: 'Code Troopers Official Website',
+        badge: 'Official Website',
+        objective: 'Design and develop a responsive, user-friendly website that highlights achievements, team members and essential information, while ensuring smooth navigation and a professional look.'
+      }
     ],
-    branchStructure: ['main — Production-ready code', 'develop — Integration branch', 'feature/* — Individual feature branches']
+    memberProjects: {
+      title: 'Other Member Initiatives',
+      subtitle: 'Projects developed collaboratively by members of the club.',
+      projects: [
+        {
+          id: 'aasare',
+          title: 'AASARE Counselling Cell Management Portal',
+          badge: 'SWO Joint Project (Ignite × CodeTroopers × Aikya)',
+          objective: 'The AASARE Counselling Cell Management Portal is a secure web-based platform designed to manage counselling appointments and provide counsellors with a private, isolated case-study management system.'
+        },
+        {
+          id: 'city-surveillance',
+          title: 'City Surveillance Cell',
+          badge: 'Member Initiative',
+          objective: 'An intelligent monitoring and surveillance management platform built by club members to streamline campus and city security operations.'
+        }
+      ]
+    }
   },
-  projectGovernance: {
-    title: 'Project Governance',
-    proposalRequirements: ['Problem Statement', 'Objective & Scope', 'Team Members', 'Timeline', 'Deliverables'],
-    lifecycle: ['Idea Submission', 'Approval', 'Team Formation', 'Development', 'Testing', 'Review', 'Deployment', 'Maintenance']
-  },
-  contributionPoints: {
-    title: 'Contribution Point System',
-    activities: [
-      { activity: 'Event Participation', points: '+10' },
-      { activity: 'Event Organizer', points: '+20' },
-      { activity: 'Workshop Speaker', points: '+25' },
-      { activity: 'Project Contribution', points: '+10 to +50' },
-      { activity: 'Open Source Contribution', points: '+15' },
-      { activity: 'Winning Competitions', points: '+30' },
-      { activity: 'Mentoring Members', points: '+20' }
-    ]
-  },
-  promotionPolicy: {
-    title: 'Promotion Policy',
-    criteria: ['Consistency in performance', 'Contribution Points earned', 'Leadership ability demonstrated', 'Technical growth trajectory', 'Positive team feedback'],
-    path: ['Contributor', 'Senior Contributor', 'Co-Lead', 'Lead', 'Workbench Head / Club Head']
-  },
-  communicationPolicy: {
-    title: 'Communication Policy',
-    platforms: ['WhatsApp', 'GitHub', 'Google Drive', 'Workbench Portal'],
-    rule: 'Important decisions must be documented and communicated through official channels only.'
-  },
-  meetingPolicy: {
-    title: 'Meeting Policy',
-    meetings: [
-      { type: 'Leadership Meeting', frequency: 'Weekly', attendees: 'Club Head, Workbench Head, Team Leads' },
-      { type: 'Team Meeting', frequency: 'Weekly', attendees: 'Lead, Co-Lead, Contributors' },
-      { type: 'General Body Meeting', frequency: 'Monthly', attendees: 'All Club Members' }
+  howToJoin: {
+    title: 'How to Join',
+    subtitle: 'Your step-by-step onboarding journey to becoming an active contributor.',
+    steps: [
+      { step: 1, title: 'Join', desc: 'Become an official member of the Code Troopers developer community.' },
+      { step: 2, title: 'Choose Track', desc: 'Select your track: Full Stack, DSA, Cloud/DevOps, or AI/ML.' },
+      { step: 3, title: 'Onboarding Task', desc: 'Complete a practical track assessment to prove foundational readiness.' },
+      { step: 4, title: 'Join Project', desc: 'Get assigned to Project Team 1, 2, or 3 based on your skills.' },
+      { step: 5, title: 'Start Building', desc: 'Collaborate with team leads, write code, submit PRs and ship features.' }
     ]
   }
 };
@@ -217,12 +234,12 @@ export const eventProtocol = {
   goldenPrinciple: 'If an activity is not documented, it is considered not conducted. Every event, workshop, hackathon, competition, or initiative must leave behind complete documentation for future teams.',
   workshopPhases: [
     { phase: 'Phase 1: Planning', steps: ['Conduct internal planning meeting', 'Finalize topic, duration, target audience', 'Identify faculty coordinator and resource requirements', 'Determine venue preference and expected participants'] },
-    { phase: 'Phase 2: Syllabus Preparation', steps: ['Prepare detailed syllabus for multi-day workshops', 'Document day-wise topics, activities, and deliverables', 'Get syllabus reviewed by Learning & Platform Development Team'] },
-    { phase: 'Phase 3: Venue Verification', steps: ['Verify venue availability and seating capacity', 'Check projector, internet, and power backup', 'Coordinate with Department HOD, Mr. Deepak Rao, and Faculty Coordinators'] },
-    { phase: 'Phase 4: Event Documentation', steps: ['Prepare Event Proposal Document with all mandatory information', 'Include event name, date, venue, description, objectives, schedule, and resources'] },
+    { phase: 'Phase 2: Syllabus Preparation', steps: ['Prepare detailed syllabus for multi-day workshops', 'Document day-wise topics, activities and deliverables', 'Get syllabus reviewed by Learning & Platform Development Team'] },
+    { phase: 'Phase 3: Venue Verification', steps: ['Verify venue availability and seating capacity', 'Check projector, internet and power backup', 'Coordinate with Department HOD, Mr. Deepak Rao and Faculty Coordinators'] },
+    { phase: 'Phase 4: Event Documentation', steps: ['Prepare Event Proposal Document with all mandatory information', 'Include event name, date, venue, description, objectives, schedule and resources'] },
     { phase: 'Phase 5: Activity Request Approval', steps: ['Prepare Activity Request Form', 'Submit to HOD only through faculty member (Faculty Coordinator or supporting faculty)'] },
     { phase: 'Phase 6: HOD Approval', steps: ['Obtain verbal approval from HOD before any preparations', 'Only after approval: create posters, begin registrations, release announcements'] },
-    { phase: 'Phase 7: Poster Approval', steps: ['Get all promotional posters approved by E.O officer', 'Verify date, venue, time, college frame, club logo, and registration link/QR'] },
+    { phase: 'Phase 7: Poster Approval', steps: ['Get all promotional posters approved by E.O officer', 'Verify date, venue, time, college frame, club logo and registration link/QR'] },
     { phase: 'Phase 8: Registration', steps: ['Create Google Form with Name, USN, Branch, Semester, Contact, Email', 'Use response-limiting extension for participant cap control'] },
     { phase: 'Phase 9: Attendance', steps: ['Prepare official attendance sheet with college logo', 'Collect participant signatures on hardcopy during event'] },
     { phase: 'Phase 10: Attendance Submission', steps: ['Submit hard copy to Faculty Coordinator at end of each day', 'Share scanned sheets with faculty members for attendance benefits'] },
@@ -231,12 +248,12 @@ export const eventProtocol = {
     { phase: 'Phase 13: Post Event', steps: ['Within 48 hours: upload documents, submit report, upload attendance', 'Publish photos, share feedback analysis', 'Publish professional LinkedIn post summarizing the event'] }
   ],
   hackathonPhases: [
-    { phase: 'Phase 1: Concept Development', steps: ['Define hackathon type (intra/inter), themes, and duration', 'Determine participation model, team size, and expected registrations'] },
-    { phase: 'Phase 2: Proposal Preparation', steps: ['Prepare comprehensive proposal with event overview, budget, and organizational structure', 'Include sponsorship planning, event flow, objectives, and expected outcomes'] },
+    { phase: 'Phase 1: Concept Development', steps: ['Define hackathon type (intra/inter), themes and duration', 'Determine participation model, team size and expected registrations'] },
+    { phase: 'Phase 2: Proposal Preparation', steps: ['Prepare comprehensive proposal with event overview, budget and organizational structure', 'Include sponsorship planning, event flow, objectives and expected outcomes'] },
     { phase: 'Phase 3: Dean Research Approval', steps: ['Submit proposal to Dean Research', 'No promotions, sponsorship, or registrations until approval received'] },
-    { phase: 'Phase 4: Promotion & Sponsorship', steps: ['Begin sponsorship outreach and social media campaign', 'Release posters, launch registration, and college outreach'] },
-    { phase: 'Phase 5: Event Execution', steps: ['Maintain registration, attendance, mentor allocation records', 'Track judging rubrics, financial records, and resource availability'] },
-    { phase: 'Phase 6: Closure Report', steps: ['Within 7 days: prepare closure report with statistics, financial summary, and winner details', 'Archive in official Drive and submit to Dean Research and involved faculty'] }
+    { phase: 'Phase 4: Promotion & Sponsorship', steps: ['Begin sponsorship outreach and social media campaign', 'Release posters, launch registration and college outreach'] },
+    { phase: 'Phase 5: Event Execution', steps: ['Maintain registration, attendance, mentor allocation records', 'Track judging rubrics, financial records and resource availability'] },
+    { phase: 'Phase 6: Closure Report', steps: ['Within 7 days: prepare closure report with statistics, financial summary and winner details', 'Archive in official Drive and submit to Dean Research and involved faculty'] }
   ],
   approvalProcess: [
     'Internal planning meeting',
@@ -268,9 +285,9 @@ export const eventProtocol = {
   ],
   documentation: [
     'Event folder created in Google Drive',
-    'Proposal, posters, and registration forms archived',
-    'Attendance sheets, PPTs, and resources uploaded',
-    'Photos, videos, certificates, and feedback stored'
+    'Proposal, posters and registration forms archived',
+    'Attendance sheets, PPTs and resources uploaded',
+    'Photos, videos, certificates and feedback stored'
   ],
   certificates: [
     'Generated via official E-Certificate Generator',
