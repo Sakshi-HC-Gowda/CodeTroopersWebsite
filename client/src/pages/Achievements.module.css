@@ -142,7 +142,6 @@
   align-items: center;
   justify-content: center;
   padding: 2rem 1.5rem;
-  animation: fadeIn 0.3s ease-out;
 }
 
 .overlayLayoutWrapper {

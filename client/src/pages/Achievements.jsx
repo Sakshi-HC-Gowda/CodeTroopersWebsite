@@ -20,12 +20,18 @@ export default function Achievements() {
 
   useEffect(() => {
     if (id) {
+      const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
       document.body.style.overflow = 'hidden';
+      if (scrollbarWidth > 0) {
+        document.body.style.paddingRight = `${scrollbarWidth}px`;
+      }
     } else {
       document.body.style.overflow = '';
+      document.body.style.paddingRight = '';
     }
     return () => {
       document.body.style.overflow = '';
+      document.body.style.paddingRight = '';
     };
   }, [id]);
 
@@ -88,78 +94,80 @@ export default function Achievements() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.25 }}
+            transition={{ duration: 0.2 }}
             className={styles.overlayBackdrop}
             onClick={() => navigate('/achievements')}
           >
             <div className={styles.overlayLayoutWrapper} onClick={(e) => e.stopPropagation()}>
               
               {/* Main Center Detail Area */}
-              <motion.div
-                key={id}
-                initial={{ opacity: 0, y: 15, scale: 0.98 }}
-                animate={{ opacity: 1, y: 0, scale: 1 }}
-                exit={{ opacity: 0, y: -15, scale: 0.98 }}
-                transition={{ duration: 0.3, ease: 'easeOut' }}
-                className={styles.detailCard}
-              >
-                {/* Close Button inside details area for better mobile support too */}
-                <button className={styles.closeBtn} onClick={() => navigate('/achievements')} aria-label="Close details">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                    <line x1="18" y1="6" x2="6" y2="18"></line>
-                    <line x1="6" y1="6" x2="18" y2="18"></line>
-                  </svg>
-                </button>
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={id}
+                  initial={{ opacity: 0, y: 10, scale: 0.98 }}
+                  animate={{ opacity: 1, y: 0, scale: 1 }}
+                  exit={{ opacity: 0, y: -10, scale: 0.98 }}
+                  transition={{ duration: 0.2, ease: 'easeOut' }}
+                  className={styles.detailCard}
+                >
+                  {/* Close Button inside details area for better mobile support too */}
+                  <button className={styles.closeBtn} onClick={() => navigate('/achievements')} aria-label="Close details">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                      <line x1="18" y1="6" x2="6" y2="18"></line>
+                      <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                  </button>
 
-                {/* Top Image Stack */}
-                <div className={styles.detailImageStack}>
-                  {Array.isArray(activeItem.image) ? (
-                    <div className={styles.detailMultiImageGrid}>
-                      {activeItem.image.map((imgUrl, idx) => (
-                        <div key={idx} className={styles.detailImageWrapper}>
-                          <img src={imgUrl} alt={`${activeItem.title} - ${idx + 1}`} />
-                        </div>
-                      ))}
-                    </div>
-                  ) : (
-                    <div className={styles.detailImageWrapper}>
-                      <img src={activeItem.image} alt={activeItem.title} />
-                    </div>
-                  )}
-                </div>
-
-                {/* Bottom Details Content */}
-                <div className={styles.detailCardBody}>
-                  <div className={styles.detailHeaderMeta}>
-                    <span className={styles.detailCategoryBadge}>
-                      {achievementCategories.find(c => c.slug === activeItem.category)?.label || activeItem.category}
-                    </span>
-                    <span className={styles.detailDateText}>
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginRight: '6px' }}>
-                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                        <line x1="16" y1="2" x2="16" y2="6"></line>
-                        <line x1="8" y1="2" x2="8" y2="6"></line>
-                        <line x1="3" y1="10" x2="21" y2="10"></line>
-                      </svg>
-                      {new Date(activeItem.date).toLocaleDateString('en-IN', { month: 'long', year: 'numeric' })}
-                    </span>
+                  {/* Top Image Stack */}
+                  <div className={styles.detailImageStack}>
+                    {Array.isArray(activeItem.image) ? (
+                      <div className={styles.detailMultiImageGrid}>
+                        {activeItem.image.map((imgUrl, idx) => (
+                          <div key={idx} className={styles.detailImageWrapper}>
+                            <img src={imgUrl} alt={`${activeItem.title} - ${idx + 1}`} />
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <div className={styles.detailImageWrapper}>
+                        <img src={activeItem.image} alt={activeItem.title} />
+                      </div>
+                    )}
                   </div>
 
-                  <h2 className={styles.detailTitle}>{activeItem.title}</h2>
-                  
-                  <p className={styles.detailDescriptionText}>
-                    {activeItem.description}
-                  </p>
-
-                  {activeItem.tags && activeItem.tags.length > 0 && (
-                    <div className={styles.detailTagsGroup}>
-                      {activeItem.tags.map((tag, idx) => (
-                        <span key={idx} className={styles.detailTag}>#{tag}</span>
-                      ))}
+                  {/* Bottom Details Content */}
+                  <div className={styles.detailCardBody}>
+                    <div className={styles.detailHeaderMeta}>
+                      <span className={styles.detailCategoryBadge}>
+                        {achievementCategories.find(c => c.slug === activeItem.category)?.label || activeItem.category}
+                      </span>
+                      <span className={styles.detailDateText}>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginRight: '6px' }}>
+                          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                          <line x1="16" y1="2" x2="16" y2="6"></line>
+                          <line x1="8" y1="2" x2="8" y2="6"></line>
+                          <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        {new Date(activeItem.date).toLocaleDateString('en-IN', { month: 'long', year: 'numeric' })}
+                      </span>
                     </div>
-                  )}
-                </div>
-              </motion.div>
+
+                    <h2 className={styles.detailTitle}>{activeItem.title}</h2>
+                    
+                    <p className={styles.detailDescriptionText}>
+                      {activeItem.description}
+                    </p>
+
+                    {activeItem.tags && activeItem.tags.length > 0 && (
+                      <div className={styles.detailTagsGroup}>
+                        {activeItem.tags.map((tag, idx) => (
+                          <span key={idx} className={styles.detailTag}>#{tag}</span>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                </motion.div>
+              </AnimatePresence>
 
               {/* Right Sidebar - Other Cards */}
               <div className={styles.sidebar}>

@@ -109,6 +109,66 @@
         "Direct mentorship and evaluation by tech industry professionals",
         "Excellent platform to network, showcase skills, and earn recognition"
       ]
+    },
+    {
+      "id": "ach-007",
+      "title": "Python Refresher & Streamlit Masterclass",
+      "category": "community-impact",
+      "description": "The Code Troopers Club of the Department of Computer Science & Engineering, in collaboration with the Department of Basic Science, successfully conducted a peer-learning workshop titled \"Python Refresher & Streamlit Masterclass\" to strengthen students' programming skills and provide hands-on exposure to modern Python frameworks. The workshop focused on revisiting fundamental Python concepts while introducing Streamlit, an open-source Python library for developing interactive web applications for data science and machine learning. The session was effectively led by three third-year Computer Science & Engineering students—Sumedh Navuda, Satvik Bhat, and Vikas—who shared their technical expertise through practical demonstrations and interactive discussions, making the learning experience engaging and accessible. The workshop received an enthusiastic response from the participants and successfully fostered a collaborative learning environment, highlighting the effectiveness of peer-led initiatives in encouraging knowledge sharing, practical skill development, and continuous technical growth among students.",
+      "date": "2025-11-20",
+      "image": "/uploads/workshops/python-streamlit/1.png",
+      "tags": [
+        "Python",
+        "Streamlit",
+        "Peer Learning",
+        "Data Science",
+        "Workshop"
+      ],
+      "highlights": [
+        "Peer-learning workshop effectively led by 3rd-year CSE students Sumedh Navuda, Satvik Bhat, and Vikas",
+        "Introduced Streamlit for interactive data science and machine learning web application development",
+        "Collaborative initiative between Department of CSE and Department of Basic Science"
+      ]
+    },
+    {
+      "id": "ach-008",
+      "title": "The Palm Leaf Manuscript Digitization Project",
+      "category": "projects",
+      "description": "The Palm Leaf Manuscript Digitization Project is an AI-powered digital preservation initiative aimed at safeguarding ancient Tulu palm leaf manuscripts by converting them into searchable digital records. Our solution combines image preprocessing, OCR, and intelligent text management to extract and organize manuscript content while preserving the original images. The project delivered a centralized digital repository that simplifies archival, retrieval, and long-term preservation of these culturally significant documents, demonstrating how modern AI and software technologies can help protect and make accessible valuable historical heritage.",
+      "date": "2025-12-15",
+      "image": "/uploads/projects/palm-leaf-digitization/1.png",
+      "tags": [
+        "AI Preservation",
+        "Tulu Manuscripts",
+        "OCR",
+        "Digital Archival",
+        "Cultural Heritage"
+      ],
+      "highlights": [
+        "AI-powered digital preservation safeguarding ancient Tulu palm leaf manuscripts",
+        "Combines advanced image preprocessing, custom OCR, and text management",
+        "Delivered a centralized digital repository for long-term archival and retrieval"
+      ]
+    },
+    {
+      "id": "ach-009",
+      "title": "Folklore Diaries",
+      "category": "projects",
+      "description": "Folklore Diaries is a digital knowledge management platform developed to preserve, organize, and provide easy access to traditional folklore and medicinal knowledge. The system enables researchers and domain experts to maintain a structured repository of medicinal plants, their scientific and local names, therapeutic uses, preparation methods, research references, and supporting media. By digitizing and centralizing this valuable indigenous knowledge, the project delivered an efficient, searchable, and scalable knowledge management solution that supports long-term preservation, research, and future integration with AI-driven analysis.",
+      "date": "2026-01-10",
+      "image": "/uploads/projects/folklore-diaries/1.png",
+      "tags": [
+        "Knowledge Management",
+        "Digital Archival",
+        "Medicinal Plants",
+        "Indigenous Knowledge",
+        "AI Analysis"
+      ],
+      "highlights": [
+        "Digital knowledge platform preserving traditional folklore and medicinal plant wisdom",
+        "Structured cataloging for scientific/local names, therapeutic uses, and research references",
+        "Searchable, scalable repository ready for integration with future AI analysis"
+      ]
     }
   ]
 }
