@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react';
-import { HiX, HiChevronLeft, HiChevronRight } from 'react-icons/hi';
+import { HiX, HiChevronLeft, HiChevronRight, HiFolder } from 'react-icons/hi';
 import { motion, AnimatePresence } from 'framer-motion';
 import SEOHead from '../components/SEOHead';
 import PageHeader from '../components/PageHeader';
 import { FadeIn, HoverCard } from '../components/Animated';
 import { getGallery } from '../services/api';
+import { formatImageUrl } from '../utils/imageHelper';
 import styles from './Gallery.module.css';
 
 const categories = [
@@ -23,7 +24,7 @@ export default function Gallery() {
   const [lightbox, setLightbox] = useState(null);
 
   useEffect(() => {
-    getGallery().then(r => setItems(r.data.items)).catch(() => {});
+    getGallery().then(r => setItems(r.data.items)).catch(() => { });
   }, []);
 
   useEffect(() => {
@@ -75,13 +76,18 @@ export default function Gallery() {
             {filtered.map((item, i) => (
               <FadeIn key={item.id} delay={i % 6}>
                 <HoverCard>
-                  <div className={styles.item} onClick={() => setLightbox({ event: item, index: 0 })}>
-                    <img src={item.cover} alt={item.title} loading="lazy" />
-                    <div className={styles.overlay}>
-                      <span>{item.title}</span>
-                      <div className={styles.overlayMeta}>
-                        <span>{getCategoryLabel(item.category)}</span>
-                        <span>{item.images.length} Photos</span>
+                  <div className={styles.folderCard} onClick={() => setLightbox({ event: item, index: 0 })}>
+                    <div className={styles.folderTab}>
+                      <span className={styles.folderTag}><HiFolder /> Folder Album</span>
+                    </div>
+                    <div className={styles.item}>
+                      <img src={formatImageUrl(item.cover)} alt={item.title} loading="lazy" />
+                      <div className={styles.overlay}>
+                        <span>{item.title}</span>
+                        <div className={styles.overlayMeta}>
+                          <span>{getCategoryLabel(item.category)}</span>
+                          <span className={styles.photoCount}><HiFolder /> {item.images.length} Photos</span>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -117,7 +123,7 @@ export default function Gallery() {
               exit={{ scale: 0.9 }}
               onClick={e => e.stopPropagation()}
             >
-              <img src={currentImage} alt={`${currentEvent.title} ${lightbox.index + 1}`} />
+              <img src={formatImageUrl(currentImage)} alt={`${currentEvent.title} ${lightbox.index + 1}`} />
               <p>{currentEvent.title}</p>
               <span className={styles.lightboxMeta}>{lightbox.index + 1} of {currentEvent.images.length} Photos</span>
             </motion.div>

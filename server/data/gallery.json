@@ -1,14 +1,36 @@
 {
   "items": [
     {
-      "id": "ai-nexus",
-      "title": "AI Nexus",
+      "id": "3d-photogrammetry",
+      "title": "Workshop on 3D Photogrammetry",
       "category": "workshops",
-      "cover": "/uploads/workshops/ai-nexus/1.jpg",
+      "cover": "https://drive.google.com/uc?export=view&id=1rUJSrpq2BKt-tXm3Rk6v3MbC-I0rIHoe",
       "images": [
-        "/uploads/workshops/ai-nexus/1.jpg",
-        "/uploads/workshops/ai-nexus/2.jpg",
-        "/uploads/workshops/ai-nexus/3.jpg"
+        "https://drive.google.com/uc?export=view&id=1rUJSrpq2BKt-tXm3Rk6v3MbC-I0rIHoe",
+        "https://drive.google.com/file/d/1VETQMOyzK5uEH32oiABZYyiZ165e6gUH/view?usp=sharing",
+        "https://drive.google.com/file/d/1WNPNEE52B5l3xS0uIZilvT5wALgdzO1H/view?usp=sharing"
+      ]
+    },
+    {
+      "id": "stacksync",
+      "title": "StackSync Workshop",
+      "category": "workshops",
+      "cover": "https://drive.google.com/file/d/1b90mJmEFaIPKqAv0G5tlI0ZPcs2F-Aiz/view?usp=sharing",
+      "images": [
+        "https://drive.google.com/file/d/1b90mJmEFaIPKqAv0G5tlI0ZPcs2F-Aiz/view?usp=sharing",
+        "https://drive.google.com/file/d/1Jso9gA7LNc5CcQM1zvKxat9Pip3euM2w/view?usp=sharing",
+        "https://drive.google.com/file/d/1RafYWevDa2Vzlb67Ewav_6W-eOJuDBgR/view?usp=drive_link"
+      ]
+    },
+    {
+      "id": "ai-nexus",
+      "title": "AI Nexus Workshop",
+      "category": "workshops",
+      "cover": "https://drive.google.com/file/d/1Q2bNX5f_MelTiGwZdiBgZCQ1Ib4i8ENb/view?usp=sharing",
+      "images": [
+        "https://drive.google.com/file/d/1Q2bNX5f_MelTiGwZdiBgZCQ1Ib4i8ENb/view?usp=sharing",
+        "https://drive.google.com/file/d/1JbmTpPVkr_sy7dMhvFqFIPIi002UP_IX/view?usp=sharing",
+        "https://drive.google.com/file/d/1b3BwBHr7X3acw6dxBg1u0H0av9aItmAs/view?usp=drive_link"
       ]
     },
     {
@@ -19,8 +41,7 @@
       "images": [
         "/uploads/workshops/full-stack-web-development/1.jpg",
         "/uploads/workshops/full-stack-web-development/2.jpg",
-        "/uploads/workshops/full-stack-web-development/3.jpg",
-        "/uploads/workshops/full-stack-web-development/4.jpg"
+        "/uploads/workshops/full-stack-web-development/3.jpg"
       ]
     },
     {

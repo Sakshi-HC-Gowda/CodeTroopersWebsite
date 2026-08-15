@@ -26,12 +26,3 @@ exports.submit = async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 };
-
-exports.getTestimonials = async (req, res) => {
-  try {
-    const data = await readJSON('testimonials.json');
-    res.json(data);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
-};

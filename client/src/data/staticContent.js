@@ -303,10 +303,10 @@ export const eventProtocol = {
 };
 
 export const stats = [
-  { label: 'Active Members', value: '50+' },
-  { label: 'Events Conducted', value: '25+' },
-  { label: 'Projects Built', value: '15+' },
-  { label: 'Workshop Hours', value: '500+' }
+  { label: 'Active Members', value: '36+' },
+  { label: 'Events Conducted', value: '6+' },
+  { label: 'Projects Built', value: '5+' },
+  { label: 'Workshop Hours', value: '32+' }
 ];
 
 export const eventTypes = [

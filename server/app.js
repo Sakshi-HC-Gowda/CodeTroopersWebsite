@@ -21,7 +21,6 @@ app.use('/api/events', eventsRoutes);
 app.use('/api/gallery', galleryRoutes);
 app.use('/api/achievements', achievementsRoutes);
 app.use('/api/contact', contactRoutes);
-app.get('/api/testimonials', contactController.getTestimonials);
 app.get('/api/contact-info', contactController.getInfo);
 
 app.get('/api/health', (req, res) => {

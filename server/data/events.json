@@ -4,11 +4,11 @@
       "id": "evt-001",
       "title": "Full Stack Web Development Workshop",
       "type": "workshops",
-      "description": "A comprehensive 3-day hands-on workshop covering React, Node.js, and MongoDB alternatives. Learn to build production-ready web applications from scratch with industry best practices.",
+      "description": "A comprehensive 3-day hands-on workshop covering React, Node.js, Spring Boot, and REST APIs. Learn to build production-ready web applications from scratch with industry best practices.",
       "venue": "Seminar Hall A, CSE Block",
-      "date": "2026-07-15",
+      "date": "2025-11-10",
       "time": "09:00 AM - 04:00 PM",
-      "organizer": "Learning & Platform Development Team",
+      "organizer": "CodeTroopers Club of Department of CSE & IEEE Student Branch of SMVITM",
       "banner": "/uploads/workshops/full-stack-web-development/cover.jpg",
       "gallery": [
         "/uploads/workshops/full-stack-web-development/1.jpg",
@@ -16,7 +16,7 @@
         "/uploads/workshops/full-stack-web-development/3.jpg",
         "/uploads/workshops/full-stack-web-development/4.jpg"
       ],
-      "status": "upcoming"
+      "status": "past"
     },
     {
       "id": "evt-003",
@@ -58,16 +58,44 @@
       "id": "evt-011",
       "title": "AI Nexus",
       "type": "workshops",
-      "description": "The AI & Object Detection Peer Learning Workshop introduced students to AI technologies, focusing on Large Language Models, chatbot development, and object detection techniques. The session combined theory and practical demos to help participants build AI applications.",
+      "description": "The AI & Object Detection Peer Learning Workshop was conducted with the objective of introducing students to cutting-edge technologies in Artificial Intelligence, including Large Language Models (LLMs), chatbot development, and computer vision techniques such as object detection.",
+      "venue": "F107 Laboratory, Laboratory Complex, SMVITM",
+      "date": "2026-04-11",
+      "time": "9:30 AM to 4:00 PM",
+      "organizer": "CodeTroopers Club of Department of CSE, IEEE Computer Society and IEEE Student Branch of SMVITM",
+      "banner": "https://drive.google.com/file/d/1W9ozVbVtUHqxtNXC5ZskpeCLVDHxSNIc/view?usp=drive_link",
+      "gallery": [
+        "https://drive.google.com/file/d/1W9ozVbVtUHqxtNXC5ZskpeCLVDHxSNIc/view?usp=drive_link"
+      ],
+      "status": "past"
+    },
+    {
+      "id": "evt-012",
+      "title": "Workshop on 3D Photogrammetry",
+      "type": "workshops",
+      "description": "The Objective of the workshop was to use 3D modelling as a process of creating digital three-dimensional representation of a real-world object using multiple images.",
+      "venue": "F107 Laboratory, Laboratory Complex, SMVITM",
+      "date": "2025-10-10",
+      "time": "9:00 AM to 1:00 PM",
+      "organizer": "Department of CSE/ ISTE Student Chapter of SMVITM",
+      "banner": "https://drive.google.com/file/d/1rUJSrpq2BKt-tXm3Rk6v3MbC-I0rIHoe/view?usp=drive_link",
+      "gallery": [
+        "https://drive.google.com/file/d/1rUJSrpq2BKt-tXm3Rk6v3MbC-I0rIHoe/view?usp=drive_link"
+      ],
+      "status": "past"
+    },
+    {
+      "id": "evt-013",
+      "title": "stackSync",
+      "type": "workshops",
+      "description": "A hands-on workshop document for building a REST API in Flask, connecting it to MySQL, and consuming it from a frontend using fetch().",
       "venue": "",
-      "date": "2025-04-15",
+      "date": "",
       "time": "",
       "organizer": "",
-      "banner": "/uploads/workshops/ai-nexus/1.jpg",
+      "banner": "https://drive.google.com/file/d/1b90mJmEFaIPKqAv0G5tlI0ZPcs2F-Aiz/view?usp=sharing",
       "gallery": [
-        "/uploads/workshops/ai-nexus/1.jpg",
-        "/uploads/workshops/ai-nexus/2.jpg",
-        "/uploads/workshops/ai-nexus/3.jpg"
+        "https://drive.google.com/file/d/1b90mJmEFaIPKqAv0G5tlI0ZPcs2F-Aiz/view?usp=sharing"
       ],
       "status": "past"
     }
