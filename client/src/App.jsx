@@ -17,9 +17,15 @@ import Contact from './pages/Contact';
 function AnimatedRoutes() {
   const location = useLocation();
 
+  // Group sub-routes under top-level path so modal overlays don't trigger full-page exit/re-entry
+  const getRouteKey = (pathname) => {
+    if (pathname.startsWith('/achievements')) return '/achievements';
+    return pathname;
+  };
+
   return (
     <AnimatePresence mode="wait">
-      <Routes location={location} key={location.pathname}>
+      <Routes location={location} key={getRouteKey(location.pathname)}>
         <Route element={<Layout />}>
           <Route index element={<PageWrapper><Home /></PageWrapper>} />
           <Route path="about" element={<PageWrapper><About /></PageWrapper>} />
