@@ -2,182 +2,291 @@
 
 **Learn. Build. Lead.**
 
-Transforming Students into Industry-Ready Developers.
+> Transforming Students into Industry-Ready Developers.
 
-A modern full-stack website for the Code Troopers technical club — built with React, Express, and JSON file storage.
+The official website of **Code Troopers**, the technical club of SMVITM.
 
-## Tech Stack
+The platform provides a centralized digital presence for showcasing the club's activities, events, achievements, projects, members, learning ecosystem, and technical initiatives.
+
+---
+
+## ✨ Features
+
+- **Modern Responsive Design** — Optimized for desktop, tablet, and mobile devices
+- **Homepage** — Club introduction, vision, highlights, and featured content
+- **About** — Club story, mission, vision, values, and objectives
+- **Organization** — Overview of the club's structure and teams
+- **Members** — Leadership and member profiles with social links
+- **Events** — Workshops, hackathons, competitions, technical talks, and other activities
+- **Event Protocol** — Overview of the club's event execution process
+- **Achievements** — Club accomplishments, awards, and recognitions
+- **Workbench** — Internal learning ecosystem and technical learning roadmaps
+- **Gallery** — Photos from Code Troopers activities and events
+- **Contact** — Contact information and communication channels
+- **Responsive Navigation** — Mobile-friendly navigation and layouts
+- **GitHub Integration** — Links to project repositories and developer profiles
+
+---
+
+## 🛠️ Tech Stack
 
 | Layer | Technologies |
-|-------|-------------|
-| Frontend | React 19, React Router, Axios, CSS Modules, Framer Motion, React Icons |
+|---|---|
+| Frontend | React 19, React Router, Axios |
+| Styling | CSS Modules, CSS |
+| UI / Animation | Framer Motion, React Icons |
+| Build Tool | Vite |
 | Backend | Node.js, Express.js |
-| Database | JSON files (no external DB) |
+| Data Storage | JSON files |
+| Version Control | Git, GitHub |
 
-## Project Structure
+---
 
-```
-/
-├── client/          # React frontend (Vite)
-├── server/          # Express API backend
-│   ├── data/        # JSON data files
-│   ├── routes/      # API routes
-│   ├── controllers/ # Request handlers
-│   └── uploads/     # Static uploads
+## 📁 Project Structure
+
+```text
+CodeTroopersWebsite/
+│
+├── client/                    # React frontend
+│   ├── public/                # Static assets
+│   └── src/
+│       ├── components/        # Reusable UI components
+│       ├── pages/             # Website pages
+│       ├── data/              # Frontend data/configuration
+│       ├── styles/            # Global styles and variables
+│       └── main.jsx           # Application entry point
+│
+├── server/                    # Express backend
+│   ├── data/                  # JSON data files
+│   ├── routes/                # API routes
+│   ├── controllers/           # Request handlers
+│   └── uploads/               # Uploaded/static files
+│
+├── package.json
 └── README.md
-```
 
-## Prerequisites
+---
+
+## 🌐 Website Pages
+
+| Page | Route | Description |
+|---|---|---|
+| Home | / | Club introduction, vision, highlights, and featured content |
+| About | /about | Club story, mission, vision, and values |
+| Organization | /organization | Club structure and organizational information |
+| Team | /team | Members, leadership, roles, and profiles |
+| Events | /events/* | Workshops, hackathons, competitions, talks, and lectures |
+| Event Protocol | /event-protocol | Overview of the club's event execution process |
+| Achievements | /achievements | Awards, recognitions, projects, and accomplishments |
+| Workbench | /workbench | Learning ecosystem and technical roadmaps |
+| Gallery | /gallery | Photos from club activities and events |
+| Contact | /contact | Contact information and communication channels |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
 
 - Node.js 18 or higher
 - npm
+- Git
 
-## Getting Started
+### 1. Clone the Repository
 
-### Run locally (development)
+```bash
+git clone <repository-url>
+cd CodeTroopersWebsite
+```
 
-1. Install dependencies for root, server, and client:
+### 2. Install Dependencies
+
+From the project root:
 
 ```bash
 npm run install:all
 ```
 
-2. Start both backend and frontend concurrently:
+### 3. Start the Development Environment
 
 ```bash
 npm run dev
 ```
 
-Notes:
-- The root `dev` script uses `concurrently` and `npm --prefix` to start both services.
-- Backend: `http://localhost:5000` (API)
-- Frontend: `http://localhost:3000` (Vite). If 3000 is in use, Vite will try the next available port (e.g. 3001).
+This starts both the frontend and backend.
 
-Run services individually (if you prefer separate terminals):
+### Typical Development URLs
+
+- **Frontend:** http://localhost:3000
+- **Backend:** http://localhost:5000
+
+If port 3000 is already in use, Vite may start the frontend on another available port.
+
+---
+
+## 🔧 Running Services Individually
+
+### Backend
 
 ```bash
-# Start backend
 cd server
-npm run dev
-
-# Start frontend
-cd ../client
+npm install
 npm run dev
 ```
 
-To run the backend on a different port (PowerShell):
-
-```powershell
-#$env:PORT=5001; npm --prefix server run dev
-# then run in the same shell:
-# npm --prefix server run dev
-```
-
-Or on Unix/macOS:
+### Frontend
 
 ```bash
-PORT=5001 npm --prefix server run dev
+cd client
+npm install
+npm run dev
 ```
 
-### Production build and start
+---
 
-1. Build the React app:
+## 📦 Production Build
+
+Build the frontend:
 
 ```bash
 npm run build
 ```
 
-2. Start the Express server (serves API and static files if configured):
+Start the backend:
 
 ```bash
 npm run start
 ```
 
-### Troubleshooting
+---
 
-- EADDRINUSE (port already in use): find and stop the process using the port.
+## 📊 Data Management
 
-	Windows PowerShell:
+The project currently uses JSON files for application data instead of an external database.
 
-	```powershell
-	netstat -ano | findstr :5000
-	tasklist /FI "PID eq <pid>"
-	taskkill /PID <pid> /F
-	```
+Main data files are maintained under: `server/data/`
 
-	macOS / Linux:
+Typical data includes:
 
-	```bash
-	lsof -i :5000
-	kill -9 <pid>
-	```
+- **team.json** — Team member information
+- **events.json** — Event information
+- **achievements.json** — Achievements and recognitions
+- **gallery.json** — Gallery information and image references
+- **contact.json** — Contact information and related content
 
-- PowerShell `cd /d` note: when running scripts from PowerShell, the root `package.json` now uses `npm --prefix` so shell `cd` quirks are avoided.
+---
 
+## 🔗 GitHub Workflow
 
-## Pages
+All contributors should follow the project's Git workflow.
 
-| Page | Route | Description |
-|------|-------|-------------|
-| Home | `/` | Hero, vision, stats, featured content |
-| About | `/about` | Constitution content, core values, golden rules |
-| Organization | `/organization` | Team structure with objectives & KPIs |
-| Team | `/team` | Member cards with search & filter |
-| Events | `/events/*` | Workshops, hackathons, competitions, talks, lectures |
-| Event Protocol | `/event-protocol` | Official event execution framework |
-| Achievements | `/achievements` | Wins, projects, certifications, awards |
-| Workbench | `/workbench` | Platform policies and roadmaps |
-| Gallery | `/gallery` | Photo gallery with lightbox |
-| Contact | `/contact` | Contact form, FAQ, social links |
+### Branch Structure
 
-## API Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/api/team` | Get all team members |
-| POST | `/api/team` | Add team member |
-| PUT | `/api/team/:id` | Update team member |
-| DELETE | `/api/team/:id` | Delete team member |
-| GET | `/api/events` | Get all events (`?type=workshops`) |
-| POST | `/api/events` | Create event |
-| PUT | `/api/events/:id` | Update event |
-| DELETE | `/api/events/:id` | Delete event |
-| GET | `/api/gallery` | Get gallery items |
-| POST | `/api/gallery` | Add gallery item |
-| DELETE | `/api/gallery/:id` | Delete gallery item |
-| GET | `/api/achievements` | Get achievements |
-| POST | `/api/achievements` | Add achievement |
-| DELETE | `/api/achievements/:id` | Delete achievement |
-| POST | `/api/contact` | Submit contact form |
-| GET | `/api/testimonials` | Get testimonials |
-| GET | `/api/contact-info` | Get contact info & FAQ |
-
-## Data Files
-
-All data is stored in `server/data/`:
-
-- `team.json` — Team members (populated from Excel)
-- `events.json` — Club events
-- `achievements.json` — Achievements & awards
-- `gallery.json` — Gallery photos
-- `testimonials.json` — Member testimonials
-- `contact.json` — Contact info, FAQ, form submissions
-
-## Regenerating Team Data
-
-To regenerate `team.json` from the Excel source file:
-
-```bash
-cd server && node scripts/generateTeam.js
+```
+main
+│
+├── feature/feature-name
+├── fix/issue-name
+└── docs/documentation-name
 ```
 
-## Theme
+### Contribution Workflow
 
-- **Primary:** Deep Blue (`#1e3a8a`)
-- **Accent:** Sky Blue (`#0ea5e9`)
-- **Dark:** Slate (`#0f172a`)
-- **Font:** Inter
+1. Create a feature/fix branch.
+2. Make your changes.
+3. Commit your changes with a meaningful message.
+4. Push the branch to GitHub.
+5. Create a Pull Request.
+6. Get the changes reviewed.
+7. Merge after approval.
 
-## License
+**Example:**
 
-Academic Year 2026–27 | Code Troopers Club
+```bash
+git checkout -b feature/gallery-improvements
+git add .
+git commit -m "Improve gallery layout"
+git push origin feature/gallery-improvements
+```
+
+Then create a Pull Request on GitHub.
+
+⚠️ Do not push directly to main unless authorized by the project maintainers.
+
+---
+
+## 🎨 Design System
+
+The website follows a dark, premium technical-club aesthetic inspired by the Code Troopers brand.
+
+### Color Palette
+
+| Element | Color |
+|---|---|
+| Primary Background | #0D0507 |
+| Cream | #FDF6EE |
+| Primary Gold | #C9973A |
+| Highlight Gold | #E8B85A |
+
+The design uses layered burgundy surfaces, cream typography, gold accents, subtle borders, and responsive layouts.
+
+### Typography
+
+- **DM Sans** — Primary interface and body typography
+- **DM Mono** — Technical/code-oriented elements
+- **Playfair Display** — Display and editorial typography
+
+---
+
+## 📱 Responsive Design
+
+The website is designed to work across:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+Responsive testing should include common mobile widths such as:
+
+- 375px
+- 390px
+- 412px
+
+along with tablet and desktop resolutions.
+
+---
+
+## 👥 Project Team
+
+The website is developed and maintained by the Code Troopers Project Development Team-03.
+
+Contributors are encouraged to work through feature branches and Pull Requests so that changes can be reviewed and integrated safely.
+
+---
+
+## 📌 Project Status
+
+**Status:** Active Development
+
+The core website structure, pages, responsive layouts, event/gallery content, member information, and branding are implemented.
+
+Current development primarily focuses on:
+
+- Final UI refinements
+- Content verification
+- Responsive testing
+- Bug fixes
+- Performance improvements
+- Final deployment preparation
+
+---
+
+## 📄 License
+
+Academic Year 2026–27
+
+Code Troopers Club
+SMVITM
