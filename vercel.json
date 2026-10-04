@@ -8,14 +8,21 @@
       "includeFiles": "server/**"
     }
   },
-  "rewrites": [
+  "routes": [
     {
-      "source": "/uploads/(.*)",
-      "destination": "/api/uploads/$1"
+      "src": "/api/(.*)",
+      "dest": "/api/[...route].js"
     },
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "/uploads/(.*)",
+      "dest": "/api/[...route].js"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
